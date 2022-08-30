@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="logo image" style={{ width: "50px" }} />
+        <img src={Logo} alt="logo image " style={{ width: "50px" }} />
       </div>
       {/* menu */}
       <ul className="hidden md:flex ">
@@ -133,14 +133,17 @@ const Navbar = () => {
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+              <a
+                className="flex justify-between items-center w-full text-gray-300"
+                href="/"
+              >
+                Contact
+                <HiOutlineMail size={30} />
+              </a>
+            </li>
+          </Link>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
