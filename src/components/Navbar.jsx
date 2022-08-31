@@ -118,7 +118,8 @@ const Navbar = () => {
           <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/blake-lawrence83/"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -126,23 +127,27 @@ const Navbar = () => {
           <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6e5494]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/BlakeLawrence"
+              target="_blank"
             >
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1982C4]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1982C4]">
+              <a
+                className="flex justify-between items-center w-full text-gray-300"
+                href="/"
+              >
+                Email <HiOutlineMail size={30} />
+              </a>
+            </li>
+          </Link>
           <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="cv2022.pdf"
+              download="Blake Lawrence CV 2022"
             >
               CV <BsFillPersonLinesFill size={30} />
             </a>

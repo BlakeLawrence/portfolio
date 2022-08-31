@@ -39,7 +39,7 @@ const About = () => {
             My experience at the School of Code is one I'll never forget and it
             is one that I am incredibly grateful for. Not only did it teach me
             how to code full stack applications, more importantly, it installed
-            an incredible amount of resilience into me,it taught me how to fit
+            an incredible amount of resilience into me, it taught me how to fit
             into and work efficiently in any team and it really cemented the
             fact that I made the right decision to change careers. It was no
             easy journey thats for sure, but its one ill never forget and I
