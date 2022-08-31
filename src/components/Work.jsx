@@ -25,12 +25,10 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <h3 className="text-2xl font-bold text-white ">
-                Project Cleanup
-              </h3>
+            <div className="text-white opacity-0 group-hover:opacity-100">
+              <h3 className="text-2xl font-bold">Project Cleanup</h3>
               <br />
-              <p>My teams Final Project at School of Code</p>
+              <p className="">My teams Final Project at School of Code</p>
               <p>- See our Presentation video below</p>
               <div className="pt-8 text-center">
                 <a href="https://projectcleanup.netlify.app/" target="_blank">
@@ -57,7 +55,7 @@ const Work = () => {
           {/* Squatify  */}
           <div
             style={{ backgroundImage: `url(${squatify})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="text-white  shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -86,7 +84,7 @@ const Work = () => {
           {/* Restuarant reviews  */}
           <div
             style={{ backgroundImage: `url(${restuarant})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -119,7 +117,7 @@ const Work = () => {
           {/* To Do list */}
           <div
             style={{ backgroundImage: `url(${todo})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
