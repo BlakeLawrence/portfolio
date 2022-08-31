@@ -10,10 +10,12 @@ const Work = () => {
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
+          <p className="text-2xl sm:text-4xl  font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
             Work
           </p>
-          <p className="py-6">Here is some of the work I've done to date...</p>
+          <p className="py-6 text-sm md:text-lg">
+            Here is some of the work I've done to date...
+          </p>
         </div>
 
         {/* grid container - 4 columns down to 2 on mobile view*/}
@@ -25,10 +27,10 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
-            <div className="text-white opacity-0 group-hover:opacity-100">
-              <h3 className="text-2xl font-bold">Project Cleanup</h3>
+            <div className="text-white opacity-0 group-hover:opacity-100 text-sm sm:text-md">
+              <h3 className="text-xl sm:text-2xl font-bold">Project Cleanup</h3>
               <br />
-              <p className="">My teams Final Project at School of Code</p>
+              <p>My teams Final Project at School of Code</p>
               <p>- See our Presentation video below</p>
               <div className="pt-8 text-center">
                 <a href="https://projectcleanup.netlify.app/" target="_blank">
@@ -58,7 +60,7 @@ const Work = () => {
             className="text-white  shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
               <h3 className="text-2xl font-bold text-white ">Squatify</h3>
               <br />
               <p>A side project I initiaded with a few fellow students</p>
@@ -87,7 +89,7 @@ const Work = () => {
             className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
               <h3 className="text-2xl font-bold text-white ">
                 Restuarant Reviews
               </h3>
@@ -120,7 +122,7 @@ const Work = () => {
             className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
               <h3 className="text-2xl font-bold text-white ">To Do List</h3>
               <br />
               <p>a basic react app with no back-end.</p>
