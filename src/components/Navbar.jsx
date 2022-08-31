@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/Bl.png";
+import Logo from "../assets/Blake-Logo.svg";
 import cv from "../assets/cv2022.pdf";
 import { Link } from "react-scroll";
 
@@ -13,8 +13,8 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <img src={Logo} alt="logo image" style={{ width: "50px" }} />
+      <div className="mt-12">
+        <img src={Logo} alt="logo image" style={{ width: "125px" }} />
       </div>
       {/* menu */}
       <ul className="hidden md:flex ">
@@ -150,7 +150,8 @@ const Navbar = () => {
               href={cv}
               download="Blake Lawrence CV 2022"
             >
-              CV <BsFillPersonLinesFill size={30} />
+              CV
+              <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
