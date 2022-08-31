@@ -4,6 +4,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Bl.png";
+import cv from "../assets/cv2022.pdf";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -146,7 +147,7 @@ const Navbar = () => {
           <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="cv2022.pdf"
+              href={cv}
               download="Blake Lawrence CV 2022"
             >
               CV <BsFillPersonLinesFill size={30} />
