@@ -32,7 +32,7 @@ const Work = () => {
               <p>- See our Presentation video below</p>
               <div className="pt-8 text-center">
                 <a href="https://projectcleanup.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Demo
                   </button>
                 </a>
@@ -40,12 +40,12 @@ const Work = () => {
                   href="https://github.com/BlakeLawrence/environment_variables_frontend"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Code
                   </button>
                 </a>
                 <a href="https://youtu.be/2OWNUpYSubc" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Presentation
                   </button>
                 </a>
@@ -66,7 +66,7 @@ const Work = () => {
               <p>- Practiced Agile team working</p>
               <div className="pt-8 text-center">
                 <a href="https://squatify.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Demo
                   </button>
                 </a>
@@ -74,7 +74,7 @@ const Work = () => {
                   href="https://github.com/BlakeLawrence/Squatify-App"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Code
                   </button>
                 </a>
@@ -99,7 +99,7 @@ const Work = () => {
                   href="https://restuarant-reviews.netlify.app/"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Demo
                   </button>
                 </a>
@@ -107,7 +107,7 @@ const Work = () => {
                   href="https://github.com/BlakeLawrence/Restuarant-Review-App-Client"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Code
                   </button>
                 </a>
@@ -128,7 +128,7 @@ const Work = () => {
 
               <div className="pt-8 text-center">
                 <a href="https://blakes-todo-list.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Demo
                   </button>
                 </a>
@@ -136,7 +136,7 @@ const Work = () => {
                   href="https://github.com/BlakeLawrence/To-Do-List"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Code
                   </button>
                 </a>
