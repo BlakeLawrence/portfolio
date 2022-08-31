@@ -13,7 +13,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
             Work
           </p>
-          <p className="py-6">Here is some of the work ive done to date...</p>
+          <p className="py-6">Here is some of the work I've done to date...</p>
         </div>
 
         {/* grid container - 4 columns down to 2 on mobile view*/}
@@ -26,10 +26,12 @@ const Work = () => {
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+              <h3 className="text-2xl font-bold text-white ">
                 Project Cleanup
-              </span>
-              <p>My final project at school of code</p>
+              </h3>
+              <br />
+              <p>My teams Final Project at School of Code</p>
+              <p>- See our Presentation video below</p>
               <div className="pt-8 text-center">
                 <a href="https://projectcleanup.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -44,6 +46,11 @@ const Work = () => {
                     Code
                   </button>
                 </a>
+                <a href="https://youtu.be/2OWNUpYSubc" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Presentation
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -54,9 +61,11 @@ const Work = () => {
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Squatify
-              </span>
+              <h3 className="text-2xl font-bold text-white ">Squatify</h3>
+              <br />
+              <p>A side project I initiaded with a few fellow students</p>
+              <p>- Helped us keep busy on weekends</p>
+              <p>- Practiced Agile team working</p>
               <div className="pt-8 text-center">
                 <a href="https://squatify.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -81,9 +90,12 @@ const Work = () => {
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+              <h3 className="text-2xl font-bold text-white ">
                 Restuarant Reviews
-              </span>
+              </h3>
+              <br />
+              <p>A tutorial build that helped me cement</p>
+              <p>a few react fundamentals.</p>
               <div className="pt-8 text-center">
                 <a
                   href="https://restuarant-reviews.netlify.app/"
@@ -111,9 +123,11 @@ const Work = () => {
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                To Do List
-              </span>
+              <h3 className="text-2xl font-bold text-white ">To Do List</h3>
+              <br />
+              <p>a basic react app with no back-end.</p>
+              <p>I built this to practice React Basics</p>
+
               <div className="pt-8 text-center">
                 <a href="https://blakes-todo-list.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
