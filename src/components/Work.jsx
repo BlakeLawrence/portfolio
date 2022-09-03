@@ -3,6 +3,7 @@ import projectCleanup from "../assets/projectcleanup.png";
 import todo from "../assets/todo.png";
 import restuarant from "../assets/restuarant.png";
 import squatify from "../assets/squatify.png";
+import sourcery from "../assets/sourcery.png";
 
 const Work = () => {
   return (
@@ -83,14 +84,14 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* PROJECT UNDER CONSTRUCTION - UNCOMMENT WHEN FIXED */}
+
           {/* Restuarant reviews  */}
-          {/*  <div
+          <div
             style={{ backgroundImage: `url(${restuarant})` }}
             className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          > */}
-          {/* hover effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
+          >
+            {/* hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
               <h3 className="text-2xl font-bold text-white ">
                 Restuarant Reviews
               </h3>
@@ -98,14 +99,14 @@ const Work = () => {
               <p>A tutorial build that helped me cement</p>
               <p>a few react fundamentals.</p>
               <div className="pt-8 text-center">
-                <a
+                {/* <a
                   href="https://restuarant-reviews.netlify.app/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Demo
                   </button>
-                </a>
+                </a> */}
                 <a
                   href="https://github.com/BlakeLawrence/Restuarant-Review-App-Client"
                   target="_blank"
@@ -116,7 +117,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* To Do list */}
           <div
             style={{ backgroundImage: `url(${todo})` }}
@@ -137,6 +138,37 @@ const Work = () => {
                 </a>
                 <a
                   href="https://github.com/BlakeLawrence/To-Do-List"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Sourcery */}
+          <div
+            style={{ backgroundImage: `url(${sourcery})` }}
+            className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
+              <h3 className="text-2xl font-bold text-white ">
+                SOrcery Resources
+              </h3>
+              <br />
+              <p>Project week 9 project</p>
+              <p>An app to help students find learning resources</p>
+
+              <div className="pt-8 text-center">
+                {/*  <a href="https://blakes-todo-list.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                    Demo
+                  </button>
+                </a> */}
+                <a
+                  href="https://github.com/BlakeLawrence/Sourcery--Front-End"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
