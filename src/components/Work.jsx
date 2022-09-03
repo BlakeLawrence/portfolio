@@ -83,13 +83,14 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/* PROJECT UNDER CONSTRUCTION - UNCOMMENT WHEN FIXED */}
           {/* Restuarant reviews  */}
-          <div
+          {/*  <div
             style={{ backgroundImage: `url(${restuarant})` }}
             className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
+          > */}
+          {/* hover effects */}
+          {/* <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
               <h3 className="text-2xl font-bold text-white ">
                 Restuarant Reviews
               </h3>
@@ -115,7 +116,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* To Do list */}
           <div
             style={{ backgroundImage: `url(${todo})` }}
