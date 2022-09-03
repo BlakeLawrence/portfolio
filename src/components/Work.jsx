@@ -155,7 +155,7 @@ const Work = () => {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
               <h3 className="text-2xl font-bold text-white ">
-                SOrcery Resources
+                Sourcery Resources
               </h3>
               <br />
               <p>Project week 9 project</p>
