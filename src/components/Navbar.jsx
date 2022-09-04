@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="fixed w-full h-[125px] flex justify-between items-center px-4 bg-[#0a192f] text-[#ccd6f6]">
       <div>
         <img
-          className="hover:rotate-[5deg] hover:scale-110"
+          className="hover:animate-pulse"
           src={Logo}
           alt="logo image"
           style={{ width: "115px" }}
