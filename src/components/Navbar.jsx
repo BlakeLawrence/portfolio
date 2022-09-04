@@ -148,7 +148,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={cv}
-              download="Blake Lawrence CV 2022"
+              target="_blank"
             >
               CV
               <BsFillPersonLinesFill size={30} />

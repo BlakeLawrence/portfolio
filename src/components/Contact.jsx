@@ -16,7 +16,8 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            Submit the form below or send me a direct email:<br></br>
+            Fill in the form below or send a message from your email account:
+            <br></br>
             <a
               className="text-[#1982C4] font-bold"
               href="mailto: blake-lawrence@hotmail.co.uk"

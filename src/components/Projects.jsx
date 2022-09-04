@@ -5,7 +5,7 @@ import restuarant from "../assets/restuarant.png";
 import squatify from "../assets/squatify.png";
 import sourcery from "../assets/sourcery.png";
 
-const Work = () => {
+const Projects = () => {
   return (
     /* text container - heading and description */
     <div
@@ -187,4 +187,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;
