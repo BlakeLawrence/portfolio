@@ -12,7 +12,7 @@ const Home = () => {
           Blake Lawrence
         </h1>
         <h2 className="text-3xl sm:text-6xl font-bold text-[#8892b0]">
-          I'm a full stack developer.
+          I'm a Full Stack Developer.
         </h2>
         <p className=" text-[#8892b0] py-4 max-w-[700px]">
           I am a highly motivated, ambitious and detail orientated Individual. I
@@ -21,9 +21,9 @@ const Home = () => {
         </p>
         <div>
           {/* Smoothe Scroll link to projects */}
-          <Link to="work" spy={true} smooth={true} duration={500}>
+          <Link to="projects" spy={true} smooth={true} duration={500}>
             <button className="text-white group border-2 px-4 py-2 sm:px-6 sm:py-3 my-2 flex items-center hover:bg-[#1982C4] hover:border-[#1982C4]">
-              View Work
+              View Projects
               <span className="group-hover:rotate-90 duration-300"></span>
             </button>
           </Link>

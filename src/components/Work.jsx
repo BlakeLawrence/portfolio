@@ -8,14 +8,17 @@ import sourcery from "../assets/sourcery.png";
 const Work = () => {
   return (
     /* text container - heading and description */
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div
+      name="projects"
+      className="w-full md:h-screen text-gray-300 bg-[#0a192f]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-2xl sm:text-4xl  font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
-            Work
+            Projects
           </p>
           <p className="py-6 text-sm md:text-lg">
-            Here is some of the work I've done to date...
+            Here are some of the projects I've worked on...
           </p>
         </div>
 
