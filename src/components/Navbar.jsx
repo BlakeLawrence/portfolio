@@ -23,27 +23,27 @@ const Navbar = () => {
       </div>
       {/* menu */}
       <ul className="hidden md:flex text-lg">
-        <li>
+        <li className="hover:text-[#1982C4] hover:scale-125">
           <Link to="home" spy={true} smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:text-[#1982C4] hover:scale-125">
           <Link to="about" spy={true} smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:text-[#1982C4] hover:scale-125">
           <Link to="skills" spy={true} smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:text-[#1982C4] hover:scale-125">
           <Link to="projects" spy={true} smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li>
+        <li className="hover:text-[#1982C4] hover:scale-125">
           <Link to="contact" spy={true} smooth={true} duration={500}>
             Contact
           </Link>
