@@ -120,7 +120,7 @@ const Navbar = () => {
       </ul>
       {/* social icons */}
       <div className="flex fixed flex-col top-[35%] left-0">
-        <ul>
+        <ul className="">
           <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"

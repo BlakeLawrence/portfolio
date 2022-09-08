@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
-      <div className="flex flex-col justify-center items-center w-full h-full">
+      <div className="ml-12 md:ml-0 flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="pb-8 pl-4">
             <p className="text-2xl sm:text-4xl font-bold inline border-b-4 border-[#1982C4]">
@@ -12,13 +12,13 @@ const About = () => {
           </div>
         </div>
         <section className="max-w-[1000px] w-full px-4 text-sm md:text-lg">
-          <p>
+          <p className="w-10/12 md:w-full">
             Prior to my journey of becoming a Software Developer, I had a career
             in Live events and covered many roles from Freelance Audio Engineer
             to Event Producer.
           </p>
           <br />
-          <p>
+          <p className="w-10/12 md:w-full">
             My previous career had its plus sides, but I couldn't see a very
             bright future for myself and so I took the challenge to change
             careers. It was when I came across and researched Software
@@ -28,14 +28,14 @@ const About = () => {
             along.
           </p>
           <br />
-          <p>
+          <p className="w-10/12 md:w-full">
             Fast forward a year and some change later, I have now just completed
             the School of Codes 16 week intensive full stack development
             Bootcamp and here I am, ready to take that giant leap into my first
             development role.
           </p>
           <br />
-          <p>
+          <p className="w-10/12 md:w-full">
             The experience I had at the School of Code is one I'll never forget
             and it is one that I am incredibly grateful for. Not only did it
             teach me how to code full stack applications, more importantly, it
