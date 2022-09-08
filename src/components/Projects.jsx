@@ -13,8 +13,8 @@ const Projects = () => {
       className="w-full md:h-screen text-gray-300 bg-[#0a192f]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-2xl sm:text-4xl  font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
+        <div className="pl-12 sm:pl-0 pb-8">
+          <p className=" text-2xl sm:text-4xl  font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
             Projects
           </p>
           <p className="py-6 text-sm md:text-lg">
@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
 
         {/* grid container - 4 columns down to 2 on mobile view*/}
-        <div className="grid sm:grid-cols-2 gap-4 pb-16">
+        <div className="w-full items-center grid sm:grid-cols-2 gap-4 pb-16">
           {/* Grid items / projects */}
           {/* Project Cleanup  */}
           <div
