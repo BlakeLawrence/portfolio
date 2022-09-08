@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaHamburger, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Blake-Logo.svg";
@@ -52,7 +52,7 @@ const Navbar = () => {
 
       {/* hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <FaHamburger size="1.5rem" /> : <FaTimes />}
       </div>
       {/* mobile menu */}
       <ul
