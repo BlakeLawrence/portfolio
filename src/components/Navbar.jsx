@@ -62,7 +62,7 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-4 text-3xl">
           <Link
             onClick={handleClick}
             to="home"
@@ -73,7 +73,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-5 text-3xl">
           <Link
             onClick={handleClick}
             to="about"
@@ -84,7 +84,7 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-5 text-3xl">
           <Link
             onClick={handleClick}
             to="skills"
@@ -95,7 +95,7 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-5 text-3xl">
           <Link
             onClick={handleClick}
             to="work"
@@ -106,7 +106,7 @@ const Navbar = () => {
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-5 text-3xl">
           <Link
             onClick={handleClick}
             to="contact"
