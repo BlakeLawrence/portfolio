@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[100px] sm:h-[125px] flex justify-between items-center px-4 bg-[#0a192f] text-[#ccd6f6]">
+    <nav className="fixed w-full h-[100px] sm:h-[125px] flex justify-between items-center px-4 bg-[#0a192f] text-[#ccd6f6]">
       <div>
         <img
           id="logo"
@@ -116,7 +116,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
