@@ -71,7 +71,7 @@ const Home = () => {
           <div>
             {/* Smoothe Scroll link to projects */}
             <Link to="projects" spy={true} smooth={true} duration={500}>
-              <button className="text-white group border-2 px-4 py-2 sm:px-6 sm:py-3 my-2 flex items-center hover:bg-[#1982C4] hover:border-[#1982C4]  ">
+              <button className="text-white group border-[1px] px-4 py-2 sm:px-6 sm:py-3 my-2 flex items-center hover:bg-[#1982C4] hover:border-[#1982C4] rounded-md ">
                 View Projects
                 <span className="group-hover:rotate-90 duration-300"></span>
               </button>

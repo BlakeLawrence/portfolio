@@ -28,24 +28,24 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#1982C4] p-2 rounded-md"
           type="text"
           placeholder="Name"
           name="name"
         />
         <input
-          className="my-4 p-2 bg-[#ccd6f6]"
+          className="my-4 p-2 bg-[#1982C4] rounded-md"
           type="text"
           placeholder="Email"
           name="email"
         />
         <textarea
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#1982C4] p-2 rounded-md"
           name="message"
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-[#1982C4] hover:border-[#1982C4] px-4 py-3 my-8 mx-auto flex items-center ">
+        <button className="text-white rounded-md border-[1px] hover:bg-[#1982C4] hover:border-[#1982C4] px-4 py-3 my-8 mx-auto flex items-center ">
           Submit
         </button>
       </form>
