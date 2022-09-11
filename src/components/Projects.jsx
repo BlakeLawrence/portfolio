@@ -22,7 +22,7 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* grid container - 4 columns down to 2 on mobile view*/}
+        {/* grid container - 2 columns down to 1 on mobile view*/}
         <div className="w-full items-center grid sm:grid-cols-2 gap-4 pb-16">
           {/* Grid items / projects */}
           {/* Project Cleanup  */}
@@ -30,124 +30,101 @@ const Projects = () => {
             style={{ backgroundImage: `url(${projectCleanup})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* hover effects */}
-            <div className="text-white opacity-0 group-hover:opacity-100 text-sm sm:text-md">
-              <h3 className="text-xl sm:text-2xl font-bold">Project Cleanup</h3>
-              <br />
-              <p>My teams Final Project at School of Code</p>
-              <p>- See our Presentation video below</p>
-              <div className="pt-8 text-center">
-                <a href="https://projectcleanup.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/BlakeLawrence/environment_variables_frontend"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Code
-                  </button>
-                </a>
-                <a href="https://youtu.be/2OWNUpYSubc" target="_blank">
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Presentation
-                  </button>
-                </a>
-              </div>
+            {/* description */}
+          </div>
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
+            <h3 className="text-xl sm:text-2xl font-bold">Project Cleanup</h3>
+            <br />
+            <p>
+              My teams Final Project at School of
+              Codesdfsdfffffffffffffffffffffffffff
+              asfdasfasfasdfasdfadfafafadfasdfasdgfse
+              sadasdasfdasfadsfasdfsdfsdsdfsfdgfsdgsfd
+            </p>
+            <p>
+              - See our Presentation video belowsdfsdfsdfsdfsdfsdfsdfsdfsdsdf
+              sadasdasdasdasdadas
+            </p>
+            <div className="pt-8">
+              <a href="https://projectcleanup.netlify.app/" target="_blank">
+                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/BlakeLawrence/environment_variables_frontend"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                  Code
+                </button>
+              </a>
+              <a href="https://youtu.be/2OWNUpYSubc" target="_blank">
+                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                  Presentation
+                </button>
+              </a>
             </div>
           </div>
           {/* Squatify  */}
           <div
             style={{ backgroundImage: `url(${squatify})` }}
-            className="text-white  shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="text-white  shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
-              <h3 className="text-2xl font-bold text-white ">Squatify</h3>
-              <br />
-              <p>A side project I initiaded with a few fellow students</p>
-              <p>- Helped us keep busy on weekends</p>
-              <p>- Practiced Agile team working</p>
-              <div className="pt-8 text-center">
-                <a href="https://squatify.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/BlakeLawrence/Squatify-App"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Code
-                  </button>
-                </a>
-              </div>
+            {/* description */}
+          </div>
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
+            <h3 className="text-2xl font-bold text-white">Squatify</h3>
+            <br />
+
+            <p>A side project I initiaded with a few fellow</p>
+            <p>- Helped us keep busy on weekends</p>
+            <p>- Practiced Agile team working</p>
+
+            <div className="pt-8">
+              <a href="https://squatify.netlify.app/" target="_blank">
+                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/BlakeLawrence/Squatify-App"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                  Code
+                </button>
+              </a>
             </div>
           </div>
 
-          {/* Restuarant reviews  */}
-          {/* <div
-            style={{ backgroundImage: `url(${restuarant})` }}
-            className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          > */}
-          {/* hover effects */}
-          {/*    <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
-              <h3 className="text-2xl font-bold text-white ">
-                Restuarant Reviews
-              </h3>
-              <br />
-              <p>A tutorial build that helped me cement</p>
-              <p>a few react fundamentals.</p>
-              <div className="pt-8 text-center"> */}
-          {/* <a
-                  href="https://restuarant-reviews.netlify.app/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Demo
-                  </button>
-                </a> */}
-          {/*   <a
-                  href="https://github.com/BlakeLawrence/Restuarant-Review-App-Client"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Code
-                  </button>
-                </a> */}
-          {/*   </div>
-            </div>
-          </div> */}
           {/* To Do list */}
           <div
             style={{ backgroundImage: `url(${todo})` }}
             className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
-              <h3 className="text-2xl font-bold text-white ">To Do List</h3>
-              <br />
-              <p>a basic react app with no back-end.</p>
-              <p>I built this to practice React Basics</p>
+            {/* description*/}
+          </div>
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
+            <h3 className="text-2xl font-bold text-white ">To Do List</h3>
+            <br />
+            <p>a basic react app with no back-end.</p>
+            <p>I built this to practice React Basics</p>
 
-              <div className="pt-8 text-center">
-                <a href="https://blakes-todo-list.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/BlakeLawrence/To-Do-List"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Code
-                  </button>
-                </a>
-              </div>
+            <div className="pt-8">
+              <a href="https://blakes-todo-list.netlify.app/" target="_blank">
+                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/BlakeLawrence/To-Do-List"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                  Code
+                </button>
+              </a>
             </div>
           </div>
           {/* Sourcery */}
@@ -155,30 +132,30 @@ const Projects = () => {
             style={{ backgroundImage: `url(${sourcery})` }}
             className="text-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 text-sm sm:text-md">
-              <h3 className="text-2xl font-bold text-white ">
-                Sourcery Resources
-              </h3>
-              <br />
-              <p>Project week 9 project</p>
-              <p>An app to help students find learning resources</p>
+            {/* description*/}
+          </div>
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
+            <h3 className="text-2xl font-bold text-white ">
+              Sourcery Resources
+            </h3>
+            <br />
+            <p>Project week 9 project</p>
+            <p>An app to help students find learning resources</p>
 
-              <div className="pt-8 text-center">
-                {/*  <a href="https://blakes-todo-list.netlify.app/" target="_blank">
+            <div className="pt-8">
+              {/*  <a href="https://blakes-todo-list.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
                     Demo
                   </button>
                 </a> */}
-                <a
-                  href="https://github.com/BlakeLawrence/Sourcery--Front-End"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
-                    Code
-                  </button>
-                </a>
-              </div>
+              <a
+                href="https://github.com/BlakeLawrence/Sourcery--Front-End"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                  Code
+                </button>
+              </a>
             </div>
           </div>
         </div>

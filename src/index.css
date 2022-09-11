@@ -15,13 +15,9 @@
 }
 
 .content-div {
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 250px;
-}
-.content-div:hover {
-  background: rgba(112, 157, 255, 0.8) !important;
 }
 
 #logo {
