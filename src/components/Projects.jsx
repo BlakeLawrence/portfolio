@@ -1,7 +1,6 @@
 import React from "react";
 import projectCleanup from "../assets/projectcleanup.png";
 import todo from "../assets/todo.png";
-import restuarant from "../assets/restuarant.png";
 import squatify from "../assets/squatify.png";
 import sourcery from "../assets/sourcery.png";
 
@@ -32,11 +31,11 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
+          <div className="text-white text-sm sm:text-md flex flex-col justify-evenly content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
             <h3 className="text-xl sm:text-2xl font-bold">Project Cleanup</h3>
             <br />
-            <p>My teams Final Project at School of Codes</p>
-            <p>- See our Presentation video belows</p>
+            <p>My teams Final Project at School of Code</p>
+
             <div className="pt-8">
               <a href="https://projectcleanup.netlify.app/" target="_blank">
                 <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
@@ -65,7 +64,7 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5 justify-evenly">
             <h3 className="text-2xl font-bold text-white">Squatify</h3>
             <br />
 
@@ -97,7 +96,7 @@ const Projects = () => {
           >
             {/* description*/}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5 justify-evenly">
             <h3 className="text-2xl font-bold text-white ">To Do List</h3>
             <br />
             <p>a basic react app with no back-end.</p>
@@ -126,7 +125,7 @@ const Projects = () => {
           >
             {/* description*/}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5 justify-evenly">
             <h3 className="text-2xl font-bold text-white ">
               Sourcery Resources
             </h3>
