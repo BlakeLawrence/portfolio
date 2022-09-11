@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <>
       {/* social icons */}
-      <div className="flex fixed flex-col top-[35%] left-0">
-        <ul className="">
-          <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+      <div className="flex fixed flex-col top-[35%] left-1">
+        <ul>
+          <li className=" w-[150px] h-[40px] sm:w-[150px] sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-2 rounded-md border-[#1982C4] hover:shadow-md hover:shadow-[#1982C4]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/blake-lawrence83/"
@@ -21,7 +21,7 @@ const Home = () => {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6e5494]">
+          <li className=" w-[150px] h-[40px] sm:w-[150px] mt-2 sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-2 rounded-md border-[#1982C4] hover:shadow-md hover:shadow-[#1982C4]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/BlakeLawrence"
@@ -31,7 +31,7 @@ const Home = () => {
             </a>
           </li>
           <Link to="contact" spy={true} smooth={true} duration={500}>
-            <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1982C4]">
+            <li className=" w-[150px] h-[40px] sm:w-[150px] mt-2 sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-md border-2 border-[#1982C4] hover:shadow-md hover:shadow-[#1982C4]">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="/"
@@ -40,7 +40,7 @@ const Home = () => {
               </a>
             </li>
           </Link>
-          <li className=" w-[150px] h-[40px] sm:w-[160px] sm:h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          <li className=" w-[150px] h-[40px] sm:w-[150px] mt-2 sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-2 rounded-md border-[#1982C4] hover:shadow-md hover:shadow-[#1982C4]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={cv}
@@ -56,8 +56,8 @@ const Home = () => {
       <div name="home" className="w-full h-screen bg-[#0a192f]">
         {/* Overall Container */}
         <div className="max-w-[1000px] mx-10 lg:mx-auto px-8 flex flex-col justify-center h-full pt-8">
-          <p className="text-[#1982C4] text-xl sm:text-2xl">Hi, my name is</p>
-          <h1 className="text-3xl sm:text-7xl font-bold text-[#ccd6f6]">
+          <p className="text-[#1982C4] text-xl sm:text-3xl">Hi, my name is</p>
+          <h1 className="text-3xl sm:text-8xl font-bold text-[#ccd6f6]">
             Blake Lawrence
           </h1>
           <h2 className="text-3xl sm:text-6xl font-bold text-[#8892b0]">
