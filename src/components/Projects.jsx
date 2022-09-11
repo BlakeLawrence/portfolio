@@ -38,7 +38,7 @@ const Projects = () => {
 
             <div className="pt-6">
               <a href="https://projectcleanup.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Demo
                 </button>
               </a>
@@ -46,12 +46,12 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/environment_variables_frontend"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 mr-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
               <a href="https://youtu.be/2OWNUpYSubc" target="_blank">
-                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Presentation
                 </button>
               </a>
@@ -77,7 +77,7 @@ const Projects = () => {
 
             <div className="pt-6">
               <a href="https://squatify.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Demo
                 </button>
               </a>
@@ -85,7 +85,7 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/Squatify-App"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
@@ -107,7 +107,7 @@ const Projects = () => {
 
             <div className="pt-8">
               <a href="https://blakes-todo-list.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Demo
                 </button>
               </a>
@@ -115,7 +115,7 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/To-Do-List"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
@@ -146,7 +146,7 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/Sourcery--Front-End"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
