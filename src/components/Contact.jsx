@@ -27,27 +27,35 @@ const Contact = () => {
             </a>
           </p>
         </div>
-        <input
-          className="bg-[#1982C4] p-2 rounded-md"
-          type="text"
-          placeholder="Name"
-          name="name"
-        />
-        <input
-          className="my-4 p-2 bg-[#1982C4] rounded-md"
-          type="text"
-          placeholder="Email"
-          name="email"
-        />
-        <textarea
-          className="bg-[#1982C4] p-2 rounded-md"
-          name="message"
-          rows="10"
-          placeholder="Message"
-        ></textarea>
-        <button className="text-white rounded-md border-[1px] hover:bg-[#1982C4] hover:border-[#1982C4] px-4 py-3 my-8 mx-auto flex items-center ">
-          Submit
-        </button>
+        <div className="flex flex-col p-6 rounded-md bg-[#1982C4]">
+          <label className="text-white" htmlFor="name">
+            Name
+          </label>
+          <input
+            className="bg-[#339ddf] p-2 rounded-md focus:outline-none"
+            type="text"
+            name="name"
+          />
+          <label className="text-white mt-2" htmlFor="email">
+            Email
+          </label>
+          <input
+            className=" p-2 bg-[#339ddf] rounded-md focus:outline-none"
+            type="text"
+            name="email"
+          />
+          <label className="mt-2 text-white" htmlFor="message">
+            Message
+          </label>
+          <textarea
+            className="bg-[#339ddf] p-2 rounded-md text-white focus:outline-none"
+            name="message"
+            rows="10"
+          ></textarea>
+          <button className="text-white rounded-md border-[1px] hover:bg-[#1982C4] hover:border-[#1982C4] px-4 py-3 my-8 mx-auto flex items-center ">
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );

@@ -31,14 +31,14 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col justify-evenly content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5">
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5">
             <h3 className="text-xl sm:text-2xl font-bold">Project Cleanup</h3>
             <br />
             <p>My teams Final Project at School of Code</p>
 
-            <div className="pt-8">
+            <div className="pt-6">
               <a href="https://projectcleanup.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Demo
                 </button>
               </a>
@@ -46,12 +46,12 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/environment_variables_frontend"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
               <a href="https://youtu.be/2OWNUpYSubc" target="_blank">
-                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Presentation
                 </button>
               </a>
@@ -64,17 +64,20 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5 justify-evenly">
+          <div className=" text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5">
             <h3 className="text-2xl font-bold text-white">Squatify</h3>
             <br />
 
-            <p>A side project I initiaded with a few fellow</p>
+            <p className="">
+              A side project I initiaded with a few fellow
+              asdasdasdasdasdasdasdasdas
+            </p>
             <p>- Helped us keep busy on weekends</p>
             <p>- Practiced Agile team working</p>
 
-            <div className="pt-8">
+            <div className="pt-6">
               <a href="https://squatify.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Demo
                 </button>
               </a>
@@ -82,7 +85,7 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/Squatify-App"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
@@ -96,7 +99,7 @@ const Projects = () => {
           >
             {/* description*/}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5 justify-evenly">
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly">
             <h3 className="text-2xl font-bold text-white ">To Do List</h3>
             <br />
             <p>a basic react app with no back-end.</p>
@@ -104,7 +107,7 @@ const Projects = () => {
 
             <div className="pt-8">
               <a href="https://blakes-todo-list.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Demo
                 </button>
               </a>
@@ -112,7 +115,7 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/To-Do-List"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
@@ -125,7 +128,7 @@ const Projects = () => {
           >
             {/* description*/}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-2 border-[#1982C4] rounded-md p-2.5 justify-evenly">
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly">
             <h3 className="text-2xl font-bold text-white ">
               Sourcery Resources
             </h3>
@@ -135,7 +138,7 @@ const Projects = () => {
 
             <div className="pt-8">
               {/*  <a href="https://blakes-todo-list.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                  <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                     Demo
                   </button>
                 </a> */}
@@ -143,7 +146,7 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/Sourcery--Front-End"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
