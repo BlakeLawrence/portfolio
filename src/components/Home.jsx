@@ -55,9 +55,9 @@ const Home = () => {
       {/* Intro */}
       <div name="home" className="w-full h-screen bg-[#0a192f]">
         {/* Overall Container */}
-        <div className="max-w-[1000px] mx-10 lg:mx-auto px-8 flex flex-col justify-center h-full pt-8">
-          <p className="text-[#1982C4] text-xl sm:text-3xl">Hi, my name is</p>
-          <h1 className="text-3xl sm:text-8xl font-bold text-[#ccd6f6]">
+        <div className="items-start max-w-[1000px] mx-10 lg:mx-auto px-8 flex flex-col justify-center h-full pt-8">
+          <p className="text-[#1982C4] text-xl sm:text-3xl"> Hi, my name is</p>
+          <h1 className="ml-0 sm:ml-[-4px] text-3xl sm:text-8xl font-bold text-[#ccd6f6]">
             Blake Lawrence
           </h1>
           <h2 className="text-3xl sm:text-6xl font-bold text-[#8892b0]">
