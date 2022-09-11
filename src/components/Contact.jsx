@@ -16,15 +16,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4 ">
-            Fill in the form below or send a message from your email account:
-            <br></br>
-            <a
-              className="text-[#1982C4] font-bold"
-              href="mailto: blake-lawrence@hotmail.co.uk"
-            >
-              {" "}
-              blake-lawrence@hotmail.co.uk
-            </a>
+            Fill in the form below and I'll get abck to you within 24hrs:
           </p>
         </div>
         <div className="flex flex-col p-6 rounded-lg bg-[#1982C4]">
