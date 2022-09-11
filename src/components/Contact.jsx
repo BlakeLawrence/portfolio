@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="pb-24 pl-16 sm:pl-0 w-full h-full bg-[#0a192f] flex justify-center items-center p-4"
+      className="pb-16 pl-16 sm:pl-0 w-full h-full bg-[#0a192f] flex justify-center items-center p-4"
     >
       <form
         method="POST"
