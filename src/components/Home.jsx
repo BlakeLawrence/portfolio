@@ -12,7 +12,7 @@ const Home = () => {
       {/* social icons */}
       <div className="flex fixed flex-col top-[35%] left-1">
         <ul>
-          <li className=" w-[150px] h-[40px] sm:w-[150px] sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-[1px] rounded-md border-[#1982C4] hover:shadow-md hover:shadow-[#1982C4]">
+          <li className=" w-[150px] h-[40px] sm:w-[150px] sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-[1px] rounded-md border-[#1982C4] ">
             <a
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href="https://www.linkedin.com/in/blake-lawrence83/"
@@ -21,7 +21,7 @@ const Home = () => {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className=" w-[150px] h-[40px] sm:w-[150px] mt-2 sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-[1px] rounded-md border-[#1982C4] hover:shadow-md hover:shadow-[#1982C4]">
+          <li className=" w-[150px] h-[40px] sm:w-[150px] mt-2 sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-[1px] rounded-md border-[#1982C4] ">
             <a
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href="https://github.com/BlakeLawrence"
@@ -31,7 +31,7 @@ const Home = () => {
             </a>
           </li>
           <Link to="contact" spy={true} smooth={true} duration={500}>
-            <li className=" w-[150px] h-[40px] sm:w-[150px] mt-2 sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-md border-[1px] border-[#1982C4] hover:shadow-md hover:shadow-[#1982C4]">
+            <li className=" w-[150px] h-[40px] sm:w-[150px] mt-2 sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-md border-[1px] border-[#1982C4] ">
               <a
                 className="flex justify-between items-center w-full text-gray-300 font-semibold"
                 href="/"
@@ -40,7 +40,7 @@ const Home = () => {
               </a>
             </li>
           </Link>
-          <li className=" w-[150px] h-[40px] sm:w-[150px] mt-2 sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-[1px] rounded-md border-[#1982C4] hover:shadow-md hover:shadow-[#1982C4]">
+          <li className=" w-[150px] h-[40px] sm:w-[150px] mt-2 sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-[1px] rounded-md border-[#1982C4] ">
             <a
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href={cv}

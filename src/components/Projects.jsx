@@ -69,11 +69,11 @@ const Projects = () => {
             <br />
 
             <p className="">
-              A side project I initiaded with a few fellow
-              asdasdasdasdasdasdasdasdas
+              A side project I initiaded with a few fellow students from School
+              of code.
             </p>
-            <p>- Helped us keep busy on weekends</p>
-            <p>- Practiced Agile team working</p>
+            <p>Helped us keep busy on weekends</p>
+            <p>Practiced Agile team working</p>
 
             <div className="pt-6">
               <a href="https://squatify.netlify.app/" target="_blank">
