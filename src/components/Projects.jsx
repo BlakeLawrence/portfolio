@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
 
         {/* grid container - 2 columns down to 1 on mobile view*/}
-        <div className="w-full items-center grid sm:grid-cols-2 gap-4 pb-16">
+        <div className="w-full items-center grid sm:grid-cols-2 gap-4 pb-20">
           {/* Grid items / projects */}
           {/* Project Cleanup  */}
           <div
