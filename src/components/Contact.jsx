@@ -32,7 +32,7 @@ const Contact = () => {
             Name
           </label>
           <input
-            className="bg-[#8DCAF2] p-2 rounded-md focus:outline-none"
+            className="p-2 rounded-md focus:outline-none"
             type="text"
             name="name"
           />
@@ -40,7 +40,7 @@ const Contact = () => {
             Email
           </label>
           <input
-            className=" p-2 bg-[#8DCAF2] rounded-md focus:outline-none"
+            className=" p-2 rounded-md focus:outline-none"
             type="text"
             name="email"
           />
@@ -48,11 +48,11 @@ const Contact = () => {
             Message
           </label>
           <textarea
-            className="bg-[#8DCAF2] p-2 rounded-md focus:outline-none"
+            className="p-2 rounded-md focus:outline-none"
             name="message"
             rows="10"
           ></textarea>
-          <button className="text-white hover:text-[#1982c4] rounded-md border-[1px] hover:bg-white hover:border-[#1982C4] px-4 py-3 my-8 mx-auto flex items-center hover:font-semibold ">
+          <button className="text-white rounded-md border-[2px]  px-4 py-2 my-6 mx-auto flex items-center font-semibold hover:scale-105 ">
             Submit
           </button>
         </div>
