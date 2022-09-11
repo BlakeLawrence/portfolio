@@ -52,7 +52,7 @@ const Contact = () => {
             name="message"
             rows="10"
           ></textarea>
-          <button className="text-white rounded-md border-[1px] hover:bg-[#1982C4] hover:border-[#1982C4] px-4 py-3 my-8 mx-auto flex items-center ">
+          <button className="text-white hover:text-[#1982c4] rounded-md border-[1px] hover:bg-white hover:border-[#1982C4] px-4 py-3 my-8 mx-auto flex items-center hover:font-semibold ">
             Submit
           </button>
         </div>
