@@ -27,12 +27,12 @@ const Contact = () => {
             </a>
           </p>
         </div>
-        <div className="flex flex-col p-6 rounded-md bg-[#1982C4]">
+        <div className="flex flex-col p-6 rounded-lg bg-[#1982C4]">
           <label className="text-white" htmlFor="name">
             Name
           </label>
           <input
-            className="bg-[#339ddf] p-2 rounded-md focus:outline-none"
+            className="bg-[#8DCAF2] p-2 rounded-md focus:outline-none"
             type="text"
             name="name"
           />
@@ -40,7 +40,7 @@ const Contact = () => {
             Email
           </label>
           <input
-            className=" p-2 bg-[#339ddf] rounded-md focus:outline-none"
+            className=" p-2 bg-[#8DCAF2] rounded-md focus:outline-none"
             type="text"
             name="email"
           />
@@ -48,7 +48,7 @@ const Contact = () => {
             Message
           </label>
           <textarea
-            className="bg-[#339ddf] p-2 rounded-md text-white focus:outline-none"
+            className="bg-[#8DCAF2] p-2 rounded-md focus:outline-none"
             name="message"
             rows="10"
           ></textarea>
