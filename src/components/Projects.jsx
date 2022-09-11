@@ -10,7 +10,7 @@ const Projects = () => {
     /* text container - heading and description */
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-300 bg-[#0a192f]"
+      className="w-full md:h-screen text-gray-300 bg-[#0a192f] pt-1 sm:pt-96"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pl-12 sm:pl-0 pb-8">
