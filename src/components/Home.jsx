@@ -52,7 +52,7 @@ const Home = () => {
         </ul>
       </div>
       {/* Intro */}
-      <div name="home" className="w-full h-screen bg-[#0a192f]">
+      <div name="home" className="w-full h-screen bg-[#1c3144]">
         {/* Overall Container */}
         <div className="items-start max-w-[1000px] mx-10 lg:mx-auto px-8 flex flex-col justify-center h-full pt-8">
           <p className="text-[#1982C4] text-xl sm:text-3xl"> Hi, my name is</p>

@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <nav className="fixed w-full h-[100px] sm:h-[125px] flex justify-between items-center px-4 bg-[#0a192f] text-[#ccd6f6]">
+    <nav className="fixed w-full h-[100px] sm:h-[125px] flex justify-between items-center px-4 bg-[#1c3144] text-[#ccd6f6]">
       <div>
         <img
           id="logo"
@@ -50,14 +50,14 @@ const Navbar = () => {
 
       {/* hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaHamburger size="1.5rem" /> : <FaTimes />}
+        {!nav ? <FaHamburger size="1.5rem" /> : <FaTimes size="1.5rem" />}
       </div>
       {/* mobile menu */}
       <ul
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#1c3144] flex flex-col justify-center items-center"
         }
       >
         <li className="py-4 text-3xl">
