@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="pl-16 sm:pl-0 w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      className="pb-16 pl-16 sm:pl-0 w-full h-full bg-[#0a192f] flex justify-center items-center p-4"
     >
       <form
         method="POST"
@@ -16,38 +16,38 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4 ">
-            Fill in the form below or send a message from your email account:
-            <br></br>
-            <a
-              className="text-[#1982C4] font-bold"
-              href="mailto: blake-lawrence@hotmail.co.uk"
-            >
-              {" "}
-              blake-lawrence@hotmail.co.uk
-            </a>
+            Fill in the form below and I'll get abck to you within 24hrs:
           </p>
         </div>
-        <input
-          className="bg-[#ccd6f6] p-2"
-          type="text"
-          placeholder="Name"
-          name="name"
-        />
-        <input
-          className="my-4 p-2 bg-[#ccd6f6]"
-          type="text"
-          placeholder="Email"
-          name="email"
-        />
-        <textarea
-          className="bg-[#ccd6f6] p-2"
-          name="message"
-          rows="10"
-          placeholder="Message"
-        ></textarea>
-        <button className="text-white border-2 hover:bg-[#1982C4] hover:border-[#1982C4] px-4 py-3 my-8 mx-auto flex items-center ">
-          Submit
-        </button>
+        <div className="flex flex-col p-6 rounded-lg bg-[#1982C4]">
+          <label className="text-white" htmlFor="name">
+            Name
+          </label>
+          <input
+            className="p-2 rounded-md focus:outline-none"
+            type="text"
+            name="name"
+          />
+          <label className="text-white mt-2" htmlFor="email">
+            Email
+          </label>
+          <input
+            className=" p-2 rounded-md focus:outline-none"
+            type="text"
+            name="email"
+          />
+          <label className="mt-2 text-white" htmlFor="message">
+            Message
+          </label>
+          <textarea
+            className="p-2 rounded-md focus:outline-none"
+            name="message"
+            rows="10"
+          ></textarea>
+          <button className="text-white rounded-md border-[2px]  px-4 py-2 my-6 mx-auto flex items-center font-semibold hover:scale-105 ">
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );

@@ -13,7 +13,7 @@ const Skills = () => {
     <div name="skills" className="w-full h-screen bg-[#0a192f]  text-gray-300">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pt-10 pb-8 pl-12">
+        <div className="pt-10 pb-8 pl-12 sm:pl-0">
           <p className="text-2xl sm:text-4xl font-bold inline border-b-4 border-[#1982C4]">
             Skills
           </p>
@@ -23,7 +23,7 @@ const Skills = () => {
         </div>
         {/* Logo cards - 4 columns down to 2 on mobile view */}
         <div className="pl-12 sm:pl-0 w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md hover:shadow-lg shadow-[#040c16] hover:shadow-[#1982C4] hover:scale-110 duration-500">
+          <div className="rounded-md shadow-md hover:shadow-md shadow-black hover:shadow-[#1982C4] hover:scale-110 pt-2 duration-500">
             <img
               src={Javascript}
               alt="javascript icon"
@@ -31,7 +31,7 @@ const Skills = () => {
             />
             <p className="my-4">JavaScript</p>
           </div>
-          <div className="shadow-md hover:shadow-lg shadow-[#040c16] hover:shadow-[#1982C4] hover:scale-110 duration-500">
+          <div className="rounded-md shadow-md hover:shadow-md shadow-black hover:shadow-[#1982C4] hover:scale-110 pt-2 duration-500">
             <img
               src={ReactLogo}
               alt="react icon"
@@ -39,15 +39,15 @@ const Skills = () => {
             />
             <p className="my-4">React</p>
           </div>
-          <div className="shadow-md hover:shadow-lg shadow-[#040c16] hover:shadow-[#1982C4] hover:scale-110 duration-500">
+          <div className="rounded-md shadow-md hover:shadow-md shadow-black hover:shadow-[#1982C4] hover:scale-110 pt-2 duration-500">
             <img src={html} alt="html icon" className="w-10 sm:w-20 mx-auto" />
             <p className="my-4">HTML</p>
           </div>
-          <div className="shadow-md hover:shadow-lg shadow-[#040c16] hover:shadow-[#1982C4] hover:scale-110 duration-500">
+          <div className="rounded-md shadow-md hover:shadow-md shadow-black hover:shadow-[#1982C4] hover:scale-110 pt-2 duration-500">
             <img src={Css} alt="css icon" className="w-10 sm:w-20 mx-auto" />
             <p className="my-4">CSS</p>
           </div>
-          <div className="shadow-md hover:shadow-lg shadow-[#040c16] hover:shadow-[#1982C4] hover:scale-110 duration-500">
+          <div className="rounded-md shadow-md hover:shadow-md shadow-black hover:shadow-[#1982C4] hover:scale-110 pt-2 duration-500">
             <img
               src={Tailwind}
               alt="tailwind icon"
@@ -55,7 +55,7 @@ const Skills = () => {
             />
             <p className="my-4">Tailwind</p>
           </div>
-          <div className="shadow-md hover:shadow-lg shadow-[#040c16] hover:shadow-[#1982C4] hover:scale-110 duration-500">
+          <div className="rounded-md shadow-md hover:shadow-md shadow-black hover:shadow-[#1982C4] hover:scale-110 pt-2 duration-500">
             <img
               src={Node}
               alt="node js icon"
@@ -63,7 +63,7 @@ const Skills = () => {
             />
             <p className="my-4">Node Js</p>
           </div>
-          <div className="shadow-md hover:shadow-lg shadow-[#040c16] hover:shadow-[#1982C4] hover:scale-110 duration-500">
+          <div className=" shadow-md rounded-md  border-[#1982C4] hover:shadow-md shadow-black hover:shadow-[#1982C4] hover:scale-110 pt-2 duration-500">
             <img
               src={postgresql}
               alt="postgresql icon"
@@ -71,7 +71,7 @@ const Skills = () => {
             />
             <p className="my-4">PostgreSQL</p>
           </div>
-          <div className="shadow-md hover:shadow-lg shadow-[#040c16] hover:shadow-[#1982C4] hover:scale-110 duration-500">
+          <div className="rounded-md shadow-md hover:shadow-md shadow-black hover:shadow-[#1982C4] hover:scale-110 pt-2 duration-500">
             <img
               src={Github}
               alt="html icon"
