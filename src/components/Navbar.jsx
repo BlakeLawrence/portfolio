@@ -96,7 +96,7 @@ const Navbar = () => {
         <li className="py-5 text-3xl">
           <Link
             onClick={handleClick}
-            to="projects "
+            to="projects"
             spy={true}
             smooth={true}
             duration={500}
