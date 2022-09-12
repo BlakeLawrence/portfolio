@@ -31,7 +31,7 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5">
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px]rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16]">
             <h3 className="text-xl sm:text-2xl font-bold">Project Cleanup</h3>
             <br />
             <p>My teams Final Project at School of Code</p>
@@ -64,7 +64,7 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className=" text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5">
+          <div className=" text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16]">
             <h3 className="text-2xl font-bold text-white">Squatify</h3>
             <br />
 
@@ -99,7 +99,7 @@ const Projects = () => {
           >
             {/* description*/}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly">
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16]">
             <h3 className="text-2xl font-bold text-white ">To Do List</h3>
             <br />
             <p>a basic react app with no back-end.</p>
@@ -128,7 +128,7 @@ const Projects = () => {
           >
             {/* description*/}
           </div>
-          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly">
+          <div className="text-white text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16]">
             <h3 className="text-2xl font-bold text-white ">
               Sourcery Resources
             </h3>
