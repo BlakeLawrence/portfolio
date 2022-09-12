@@ -16,7 +16,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4 ">
-            Fill in the form below and I'll get abck to you within 24hrs:
+            Please fill in and submit the form below:
           </p>
         </div>
         <div className="flex flex-col p-6 rounded-lg bg-[#1982C4]">
