@@ -31,15 +31,13 @@ const About = () => {
             Code's 16 week intensive full stack developer bootcamp and I am
             ready to secure my first software development role.
             <br />
-            <br /> The experience gained at the School of Code is one I'll never
-            forget and it is one that I am incredibly grateful for. Not only did
-            I learn how to code full stack applications, more importantly, it
-            instilled an incredible amount of resilience into me, I learned how
-            to fit into and work efficiently in any team and it really cemented
-            the fact that I made the right decision to change careers. <br />
-            <br />
-            It was no easy journey thats for sure, but its one ill never forget
-            and one that I am so happy I embarked on.
+            <br /> The experience I gained at the School of Code is one I'll
+            never forget and it is one that I am incredibly grateful for. Not
+            only did I learn how to code full stack applications, more
+            importantly, it instilled an incredible amount of resilience into
+            me, I learned how to fit into and work efficiently in any team and
+            it really cemented the fact that I made the right decision to change
+            careers. <br />
           </p>
         </section>
       </div>

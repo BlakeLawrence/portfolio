@@ -67,8 +67,8 @@ const Home = () => {
           </h2>
           <p className="text-gray-300 py-4 max-w-[700px]">
             I am a highly motivated, ambitious and detail orientated Individual.
-            I love learning new things every day and I am always pushing myself
-            to be the best I can.
+            I love coding and solving problems, I love learning new things and I
+            am always pushing myself to be the best I can.
           </p>
           <div>
             {/* Smoothe Scroll link to projects */}
