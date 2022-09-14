@@ -27,11 +27,11 @@ const Projects = () => {
           {/* Project Cleanup  */}
           <div
             style={{ backgroundImage: `url(${projectCleanup})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[250px]"
           >
             {/* description */}
           </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px]rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16]">
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px]rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[250px]">
             <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
               Project Cleanup
             </h3>
@@ -64,11 +64,11 @@ const Projects = () => {
           {/* Squatify  */}
           <div
             style={{ backgroundImage: `url(${squatify})` }}
-            className="text-gray-300  shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto content-div"
+            className="text-gray-300  shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[250px]"
           >
             {/* description */}
           </div>
-          <div className=" text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16]">
+          <div className=" text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[250px]">
             <h3 className="text-2xl font-bold text-gray-200">Squatify</h3>
             <br />
 
@@ -99,11 +99,11 @@ const Projects = () => {
           {/* To Do list */}
           <div
             style={{ backgroundImage: `url(${todo})` }}
-            className="text-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="text-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[250px]"
           >
             {/* description*/}
           </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16]">
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[250px]">
             <h3 className="text-2xl font-bold text-gray-200 ">To Do List</h3>
             <br />
             <p>a basic react app with no back-end.</p>
@@ -128,11 +128,11 @@ const Projects = () => {
           {/* Sourcery */}
           <div
             style={{ backgroundImage: `url(${sourcery})` }}
-            className="text-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="text-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[250px]"
           >
             {/* description*/}
           </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16]">
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[250px]">
             <h3 className="text-2xl font-bold text-gray-200 ">
               Sourcery Resources
             </h3>
