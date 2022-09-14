@@ -24,7 +24,7 @@ const Contact = () => {
             Name
           </label>
           <input
-            className="p-2 rounded-md focus:outline-none"
+            className="p-2 rounded-md focus:outline-none bg-gray-200"
             type="text"
             name="name"
           />
@@ -32,7 +32,7 @@ const Contact = () => {
             Email
           </label>
           <input
-            className=" p-2 rounded-md focus:outline-none"
+            className=" p-2 rounded-md focus:outline-none bg-gray-200"
             type="text"
             name="email"
           />
@@ -40,7 +40,7 @@ const Contact = () => {
             Message
           </label>
           <textarea
-            className="p-2 rounded-md focus:outline-none"
+            className="p-2 rounded-md focus:outline-none bg-gray-200"
             name="message"
             rows="10"
           ></textarea>
