@@ -31,15 +31,25 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px]rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[250px]">
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col  content-div sm:text-md border-[1px] rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[250px]">
             <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
               Project Cleanup
             </h3>
-            <br />
-            <p className="text-gray-300">
-              My teams Final Project at School of Code
+
+            <p className="text-gray-300 font-bold">
+              School of Code Final Project
+            </p>
+            <p className="text-gray-300 text-left">
+              My team and I chose to build an app to help tackle the world's
+              pollution crisis
+            </p>
+            <p>
+              We decided to take on new technologies to puish ourselves and
+              learn during the process. We used Next Js with Tailwind and
+              leaflet maps as well as various libraries such as formik,
             </p>
 
+            {/* Buttons div */}
             <div className="pt-6">
               <a href="https://projectcleanup.netlify.app/" target="_blank">
                 <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
@@ -68,7 +78,7 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className=" text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[250px]">
+          <div className=" text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-lg p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[250px]">
             <h3 className="text-2xl font-bold text-gray-200">Squatify</h3>
             <br />
 
@@ -79,6 +89,7 @@ const Projects = () => {
             <p>Helped us keep busy on weekends</p>
             <p>Practiced Agile team working</p>
 
+            {/* Buttons div */}
             <div className="pt-6">
               <a href="https://squatify.netlify.app/" target="_blank">
                 <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
@@ -109,6 +120,7 @@ const Projects = () => {
             <p>a basic react app with no back-end.</p>
             <p>I built this to practice React Basics</p>
 
+            {/* Buttons div */}
             <div className="pt-8">
               <a href="https://blakes-todo-list.netlify.app/" target="_blank">
                 <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
@@ -140,6 +152,7 @@ const Projects = () => {
             <p>Project week 9 project</p>
             <p>An app to help students find learning resources</p>
 
+            {/* Buttons div */}
             <div className="pt-8">
               {/*  <a href="https://blakes-todo-list.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-gray-300 border-[1px] hover:border-[#1982c4] text-md">
