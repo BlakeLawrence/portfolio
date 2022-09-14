@@ -25,12 +25,13 @@ const Projects = () => {
         <div className="w-full items-center grid sm:grid-cols-2 gap-4 pb-20">
           {/* Grid items / projects */}
           {/* Project Cleanup  */}
+
           <div
             style={{ backgroundImage: `url(${projectCleanup})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[250px]"
-          >
-            {/* description */}
-          </div>
+          ></div>
+
+          {/* descrip tion */}
           <div className="text-gray-300 text-sm sm:text-md flex flex-col  content-div sm:text-md border-[1px] rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[250px]">
             <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
               Project Cleanup
