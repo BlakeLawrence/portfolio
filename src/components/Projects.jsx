@@ -3,6 +3,7 @@ import projectCleanup from "../assets/projectcleanup.png";
 import todo from "../assets/todo.png";
 import squatify from "../assets/squatify.png";
 import sourcery from "../assets/sourcery.png";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -69,6 +70,11 @@ const Projects = () => {
                 <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Presentation
                 </button>
+                <Link to="/cleanup">
+                  <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md ml-2">
+                    description
+                  </button>
+                </Link>
               </a>
             </div>
           </div>

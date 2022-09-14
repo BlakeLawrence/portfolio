@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ProjectCleanup from "./pages/ProjectCleanup";
+import Squatify from "./pages/Squatify";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/cleanup">
           <ProjectCleanup />
+        </Route>
+        <Route path="/squatify">
+          <Squatify />
         </Route>
       </Switch>
     </Router>
