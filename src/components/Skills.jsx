@@ -22,7 +22,7 @@ const Skills = () => {
           </p>
         </div>
         {/* Logo cards - 4 columns down to 2 on mobile view */}
-        <div className="pl-12 sm:pl-0 w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="pl-12 sm:pl-0 w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4">
           <div className="bg-[#213b52]  rounded-md shadow-md hover:shadow-md shadow-black hover:shadow-[#1982C4] hover:scale-110 pt-2 duration-500">
             <img
               src={Javascript}

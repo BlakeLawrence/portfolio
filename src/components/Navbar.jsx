@@ -27,7 +27,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-[#1982C4] hover:scale-125">
-          <Link to="about" spy={true} smooth={true} duration={500}>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-125}
+            duration={500}
+          >
             About
           </Link>
         </li>
@@ -37,12 +43,24 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:text-[#1982C4] hover:scale-125">
-          <Link to="projects" spy={true} smooth={true} duration={500}>
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-125}
+            duration={500}
+          >
             Projects
           </Link>
         </li>
         <li className="hover:text-[#1982C4] hover:scale-125">
-          <Link to="contact" spy={true} smooth={true} duration={500}>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-125}
+            duration={500}
+          >
             Contact
           </Link>
         </li>
@@ -77,6 +95,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
+            offset={-125}
             duration={500}
           >
             About
@@ -88,6 +107,7 @@ const Navbar = () => {
             to="skills"
             spy={true}
             smooth={true}
+            offset={-50}
             duration={500}
           >
             Skills
@@ -99,6 +119,7 @@ const Navbar = () => {
             to="projects"
             spy={true}
             smooth={true}
+            offset={-125}
             duration={500}
           >
             Projects
@@ -110,6 +131,7 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
+            offset={-125}
             duration={500}
           >
             Contact
