@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -7,12 +6,13 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ProjectCleanup from "./pages/ProjectCleanup";
 
 function App() {
   return (
     <Router>
-      <Route path="/">
-        <Switch>
+      <Switch>
+        <Route exact path="/">
           <div>
             <Navbar />
             <Home />
@@ -22,8 +22,11 @@ function App() {
             <Contact />
             <Footer />
           </div>
-        </Switch>
-      </Route>
+        </Route>
+        <Route path="/cleanup">
+          <ProjectCleanup />
+        </Route>
+      </Switch>
     </Router>
   );
 }
