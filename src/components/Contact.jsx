@@ -1,10 +1,15 @@
 import React from "react";
+import { Link } from "react-scroll";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import cv from "../assets/cv2022.pdf";
 
 const Contact = () => {
   return (
     <div
       name="contact"
-      className="pb-16 pl-16 sm:pl-0 w-full h-full bg-[#1c3144] flex justify-center items-center p-4"
+      className="pb-16  w-full h-full bg-[#1c3144] flex justify-center items-center p-4"
     >
       <form
         method="POST"
@@ -47,6 +52,48 @@ const Contact = () => {
           <button className="text-white rounded-md border-[2px]  px-4 py-2 my-6 mx-auto flex items-center font-semibold hover:scale-105 ">
             Submit
           </button>
+        </div>
+        {/* social icons */}
+        <div className="sm:hidden flex justify-center left-1 mt-8 mb-4">
+          <ul className="flex">
+            <li className=" w-[50px] h-[40px] flex justify-between items-center ">
+              <a
+                className="flex items-center text-gray-300 font-semibold"
+                href="https://www.linkedin.com/in/blake-lawrence83/"
+                target="_blank"
+              >
+                <FaLinkedin size={30} />
+              </a>
+            </li>
+            <li className=" w-[50px] h-[40px] flex justify-between items-center  ">
+              <a
+                className="flex items-center text-gray-300 font-semibold"
+                href="https://github.com/BlakeLawrence"
+                target="_blank"
+              >
+                <FaGithub size={30} />
+              </a>
+            </li>
+            <Link to="contact" spy={true} smooth={true} duration={500}>
+              <li className="w-[50px] h-[40px] flex justify-between items-center">
+                <a
+                  className="flex items-center text-gray-300 font-semibold"
+                  href="/"
+                >
+                  <HiOutlineMail size={30} />
+                </a>
+              </li>
+            </Link>
+            <li className="w-[50px] h-[40px] flex justify-between items-center ">
+              <a
+                className="flex items-center text-gray-300 font-semibold"
+                href={cv}
+                target="_blank"
+              >
+                <BsFillPersonLinesFill size={30} />
+              </a>
+            </li>
+          </ul>
         </div>
       </form>
     </div>

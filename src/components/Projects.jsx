@@ -13,7 +13,7 @@ const Projects = () => {
       className="w-full md:h-full text-gray-300 bg-[#1c3144] pt-1"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pl-12 sm:pl-0 pb-8">
+        <div className=" pb-8">
           <p className=" text-2xl sm:text-4xl  font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
             Projects
           </p>

@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       {/* social icons */}
-      <div className="flex fixed flex-col top-[35%] left-1">
+      <div className="hidden sm:flex fixed flex-col top-[35%] left-1">
         <ul>
           <li className=" w-[150px] h-[40px] sm:w-[150px] sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-[1px] rounded-md border-[#1982C4] ">
             <a
@@ -54,7 +54,7 @@ const Home = () => {
       {/* Introduction */}
       <div name="home" className="w-full h-screen bg-[#1c3144]">
         {/* Overall Container */}
-        <div className="items-start max-w-[1000px] mx-10 lg:mx-auto px-8 flex flex-col justify-center h-full pt-8">
+        <div className="items-start max-w-[1000px] mx-10 lg:mx-auto sm:px-8 flex flex-col justify-center h-full pt-8">
           <p className="text-[#1982C4] text-xl sm:text-3xl font-medium">
             {" "}
             Hi, my name is
