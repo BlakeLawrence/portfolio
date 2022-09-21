@@ -45,9 +45,9 @@ const Projects = () => {
               pollution crisis
             </p>
             <p>
-              We decided to take on new technologies to puish ourselves and
-              learn during the process. We used Next Js with Tailwind and
-              leaflet maps as well as various libraries such as formik,
+              We decided to take on new technologies to push ourselves and learn
+              during the process. We used Next Js with Tailwind and leaflet maps
+              as well as various libraries such as formik,
             </p>
 
             {/* Buttons div */}
