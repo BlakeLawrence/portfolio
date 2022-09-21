@@ -4,6 +4,7 @@ import todo from "../assets/todo.png";
 import squatify from "../assets/squatify.png";
 import sourcery from "../assets/sourcery.png";
 import movie from "../assets/movie-mate.png";
+import portfolio from "../assets/blake-portfolio.png";
 
 const Projects = () => {
   return (
@@ -138,6 +139,31 @@ const Projects = () => {
               </a>
               <a
                 href="https://github.com/BlakeLawrence/find-a-film"
+                target="_blank"
+              >
+                <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+          {/* My Portfolio*/}
+          <div
+            style={{ backgroundImage: `url(${portfolio})` }}
+            className="text-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[290px]"
+          >
+            {/* description*/}
+          </div>
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
+            <h3 className="text-2xl font-bold text-gray-200 ">My Portfolio</h3>
+            <br />
+            <p>This is my portfolio website that you are currnetly viewing.</p>
+            <p> It was built using React and Tailwind CSS</p>
+
+            {/* Buttons div */}
+            <div className="pt-8">
+              <a
+                href="https://github.com/BlakeLawrence/portfolio"
                 target="_blank"
               >
                 <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
