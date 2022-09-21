@@ -137,6 +137,18 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li className="py-5 text-3xl">
+          <Link
+            onClick={handleClick}
+            to="socials"
+            spy={true}
+            smooth={true}
+            offset={-125}
+            duration={500}
+          >
+            Social Media || CV
+          </Link>
+        </li>
       </ul>
     </nav>
   );

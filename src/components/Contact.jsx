@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import cv from "../assets/cv2022.pdf";
 
@@ -24,6 +23,7 @@ const Contact = () => {
             Please fill in and submit the form below:
           </p>
         </div>
+
         <div className="flex flex-col p-6 rounded-lg bg-[#1982C4]">
           <label className="text-white" htmlFor="name">
             Name
@@ -54,9 +54,13 @@ const Contact = () => {
           </button>
         </div>
         {/* social icons */}
-        <div className="sm:hidden flex justify-center left-1 mt-8 mb-4">
+
+        <div
+          name="socials"
+          className="sm:hidden flex justify-center left-1 mt-12"
+        >
           <ul className="flex">
-            <li className=" w-[50px] h-[40px] flex justify-between items-center ">
+            <li className="flex flex-col items-center justify-center">
               <a
                 className="flex items-center text-gray-300 font-semibold"
                 href="https://www.linkedin.com/in/blake-lawrence83/"
@@ -64,8 +68,9 @@ const Contact = () => {
               >
                 <FaLinkedin size={30} />
               </a>
+              <p className="text-gray-300">LinkedIn</p>
             </li>
-            <li className=" w-[50px] h-[40px] flex justify-between items-center  ">
+            <li className="flex flex-col items-center justify-center">
               <a
                 className="flex items-center text-gray-300 font-semibold"
                 href="https://github.com/BlakeLawrence"
@@ -73,9 +78,10 @@ const Contact = () => {
               >
                 <FaGithub size={30} />
               </a>
+              <p className="text-gray-300">GitHub</p>
             </li>
 
-            <li className="w-[50px] h-[40px] flex justify-between items-center ">
+            <li className="flex flex-col items-center justify-center">
               <a
                 className="flex items-center text-gray-300 font-semibold"
                 href={cv}
@@ -83,6 +89,7 @@ const Contact = () => {
               >
                 <BsFillPersonLinesFill size={30} />
               </a>
+              <p className="text-gray-300">CV</p>
             </li>
           </ul>
         </div>
