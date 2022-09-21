@@ -51,7 +51,7 @@ const Home = () => {
           </li>
         </ul>
       </div>
-      {/* Intro */}
+      {/* Introduction */}
       <div name="home" className="w-full h-screen bg-[#1c3144]">
         {/* Overall Container */}
         <div className="items-start max-w-[1000px] mx-10 lg:mx-auto px-8 flex flex-col justify-center h-full pt-8">
@@ -67,8 +67,8 @@ const Home = () => {
           </h2>
           <p className="text-gray-300 py-4 max-w-[700px] text-lg text-start">
             I am a highly motivated, ambitious and detail orientated Individual.
-            I love solving problems, I love learning new things each day and I
-            am always pushing myself to be the best I can.
+            I love solving problems, I enjoy learning new things every day and I
+            always push myself to be the best developer I can be.
           </p>
           <div>
             {/* Smoothe Scroll link to projects */}
