@@ -17,15 +17,14 @@ const About = () => {
         <section className="max-w-[1000px] w-full px-4 text-sm md:text-lg">
           <p className="pl-0 w-full">
             Prior to my journey of becoming a software developer, I enjoyed a
-            career in live corporate events and I covered many roles from Audio
-            Engineer to Event Producer. <br />
-            <br /> My previous career had its plus sides, but I couldn't see a
-            very bright or challenging future for myself and so I took the
-            challenge to change careers. It was when I came across and
-            researched software development and signed up to my first Udemy
-            course (Colt Steele's front end developer bootcamp) that I realised
-            that this was a passion that could very well be that career change I
-            was searching for. <br />
+            career in live corporate events as a Technical Manager and I covered
+            many roles from Audio Engineer to Event Producer. <br />
+            <br /> Although I enjoyed various aspects of my previous career, I
+            couldn't see a very bright or challenging future for myself and so I
+            made the decision to change careers. I had started a Udemy course on
+            Front end development during the covid pandemic and over a few
+            months my curiosity had turned into a passion.
+            <br />
             <br />
             Fast forward a year and I have now just graduated from the School of
             Code's 16 week intensive full stack developer bootcamp and I am
