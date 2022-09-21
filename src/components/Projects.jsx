@@ -48,7 +48,7 @@ const Projects = () => {
             <p>
               We decided to take on new technologies to push ourselves and learn
               during the process. We used Next Js with Tailwind and leaflet maps
-              as well as various libraries such as formik,Yup and Toastify
+              as well as various libraries such as formik,Yup and Toastify.
             </p>
 
             {/* Buttons div */}
@@ -121,7 +121,7 @@ const Projects = () => {
           <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
             <h3 className="text-2xl font-bold text-gray-200 ">Movie Mate</h3>
             <br />
-            <p>An app that finds all movies by search title</p>
+            <p>An app that finds all movies by search title.</p>
             <p>
               I had alot of fun buiding this app and it provided an opportunity
               to cement some of the core React fundamentals such as fetching
