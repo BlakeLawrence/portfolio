@@ -32,7 +32,7 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col  content-div sm:text-md border-[1px] rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between content-div sm:text-md border-[1px] rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
             <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
               Project Cleanup
             </h3>
@@ -41,7 +41,7 @@ const Projects = () => {
               School of Code Final Project ( duration - 4 weeks )
             </p>
             <br />
-            <p className="text-gray-300 text-left">
+            <p className="text-gray-300 text-left pb-[2px]">
               My team and I chose to build an app to help tackle the world's
               pollution crisis.
             </p>
@@ -52,9 +52,9 @@ const Projects = () => {
             </p>
 
             {/* Buttons div */}
-            <div className="flex justify-center">
+            <div>
               <a href="https://projectcleanup.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] sm:text-md">
+                <button className="text-center rounded-lg px-2 mt-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] sm:text-md">
                   Demo
                 </button>
               </a>
@@ -62,12 +62,12 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/environment_variables_frontend"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-2 py-1.5 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg mt-2 px-2 py-1.5 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
               <a href="https://youtu.be/2OWNUpYSubc" target="_blank">
-                <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg mt-2 px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Presentation
                 </button>
               </a>
@@ -80,7 +80,7 @@ const Projects = () => {
           >
             {/* description */}
           </div>
-          <div className=" text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-lg p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
+          <div className=" text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-lg p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
             <h3 className="text-2xl font-bold text-gray-200">Squatify</h3>
             <br />
 
@@ -118,7 +118,7 @@ const Projects = () => {
           >
             {/* description*/}
           </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
             <h3 className="text-2xl font-bold text-gray-200 ">Movie Mate</h3>
             <br />
             <p>An app that finds all movies by search title</p>
@@ -154,7 +154,7 @@ const Projects = () => {
           >
             {/* description*/}
           </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
             <h3 className="text-2xl font-bold text-gray-200 ">To Do List</h3>
             <br />
             <p>
@@ -190,7 +190,7 @@ const Projects = () => {
           >
             {/* description*/}
           </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col container content-div sm:text-md border-[1px] rounded-md p-2.5 justify-evenly border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[325px]">
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col container sm:text-md border-[1px] rounded-md p-1 sm:p-2.5 justify-between border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[325px]">
             <h3 className="text-2xl font-bold text-gray-200 ">
               Sourcery Resources
             </h3>
@@ -198,8 +198,10 @@ const Projects = () => {
               Week-9 Project ( duration- 1 week )
             </p>
             <br />
-            <p>An app to help students find learning resources.</p>
-            <p>
+            <p className="pb-[2px]">
+              An app to help students find learning resources.
+            </p>
+            <p className="pb-[2px]">
               This project was our first taste of collaborating in a random
               Agile team under pressure to engineer a full stack application.
             </p>
@@ -210,7 +212,7 @@ const Projects = () => {
             </p>
 
             {/* Buttons div */}
-            <div className="pt-8">
+            <div className="pt-1">
               {/*  <a href="https://blakes-todo-list.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-gray-300 border-[1px] hover:border-[#1982c4] text-md">
                     Demo
@@ -220,7 +222,7 @@ const Projects = () => {
                 href="https://github.com/BlakeLawrence/Sourcery--Front-End"
                 target="_blank"
               >
-                <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1 sm:py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
