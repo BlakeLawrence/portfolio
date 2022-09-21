@@ -74,16 +74,7 @@ const Contact = () => {
                 <FaGithub size={30} />
               </a>
             </li>
-            <Link to="contact" spy={true} smooth={true} duration={500}>
-              <li className="w-[50px] h-[40px] flex justify-between items-center">
-                <a
-                  className="flex items-center text-gray-300 font-semibold"
-                  href="/"
-                >
-                  <HiOutlineMail size={30} />
-                </a>
-              </li>
-            </Link>
+
             <li className="w-[50px] h-[40px] flex justify-between items-center ">
               <a
                 className="flex items-center text-gray-300 font-semibold"
