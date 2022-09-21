@@ -42,18 +42,18 @@ const Projects = () => {
             </p>
             <p className="text-gray-300 text-left">
               My team and I chose to build an app to help tackle the world's
-              pollution crisis
+              pollution crisis.
             </p>
             <p>
               We decided to take on new technologies to push ourselves and learn
               during the process. We used Next Js with Tailwind and leaflet maps
-              as well as various libraries such as formik,
+              as well as various libraries such as formik,Yup and Toastify
             </p>
 
             {/* Buttons div */}
-            <div className="pt-6">
+            <div className="pt-3 sm:pt-6">
               <a href="https://projectcleanup.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] sm:text-md">
                   Demo
                 </button>
               </a>
