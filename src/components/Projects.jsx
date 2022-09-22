@@ -86,8 +86,8 @@ const Projects = () => {
             <br />
 
             <p className="">
-              A side project I initiaded with a few fellow students from School
-              of code.
+              A side project I initiated with a few fellow students from School
+              of Code.
             </p>
             <p>
               This helped us keep busy on weekends and provided more teamwork
@@ -160,11 +160,12 @@ const Projects = () => {
             <br />
             <p>
               This is a basic react app I built while learning React to practice
-              the basics we had been taught.
+              the fundamentals we had been taught such as onChange and OnClick
+              events and basic use of state and props.
             </p>
             <p>
-              You can add or delete todo's and mark them as complete when
-              they've been done.
+              The user can add todo items to a list, mark them as complete when
+              they've been done or delete them completely.
             </p>
 
             {/* Buttons div */}
@@ -204,7 +205,7 @@ const Projects = () => {
             </p>
             <p className="pb-[2px]">
               This project was our first taste of collaborating in a random
-              Agile team under pressure to engineer a full stack application.
+              Agile team to engineer a full stack application.
             </p>
             <p>
               It was a pressure filled week but an enjoyable one that helped us
@@ -239,7 +240,7 @@ const Projects = () => {
           <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
             <h3 className="text-2xl font-bold text-gray-200 ">My Portfolio</h3>
             <br />
-            <p>This is my portfolio website that you are currnetly viewing.</p>
+            <p>This is my portfolio website that you are currently viewing.</p>
             <p> It was built using React and Tailwind CSS</p>
 
             {/* Buttons div */}
