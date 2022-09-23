@@ -21,9 +21,9 @@ const About = () => {
             many roles from Audio Engineer to Event Producer. <br />
             <br /> Although I enjoyed various aspects of my previous career, I
             couldn't see a very bright or challenging future for myself and so I
-            made the decision to change careers. I had started a Udemy course on
-            Front end development during the covid pandemic and over a few
-            months my curiosity had turned into a passion.
+            made the decision to change careers. I started a Udemy course on
+            Front End development during the covid-19 pandemic and over a few
+            months my curiosity quickly evolved into a passion.
             <br />
             <br />
             Fast forward a year and I have now just graduated from the School of
