@@ -54,7 +54,11 @@ const Projects = () => {
 
             {/* Buttons div */}
             <div>
-              <a href="https://projectcleanup.netlify.app/" target="_blank">
+              <a
+                href="https://projectcleanup.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="text-center rounded-lg px-2 mt-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] sm:text-md">
                   Demo
                 </button>
@@ -62,12 +66,17 @@ const Projects = () => {
               <a
                 href="https://github.com/BlakeLawrence/environment_variables_frontend"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="text-center rounded-lg mt-2 px-2 py-1.5 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
                 </button>
               </a>
-              <a href="https://youtu.be/2OWNUpYSubc" target="_blank">
+              <a
+                href="https://youtu.be/2OWNUpYSubc"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="text-center rounded-lg mt-2 px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Presentation
                 </button>
@@ -96,7 +105,11 @@ const Projects = () => {
 
             {/* Buttons div */}
             <div className="pt-6">
-              <a href="https://squatify.netlify.app/" target="_blank">
+              <a
+                href="https://squatify.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Demo
                 </button>
@@ -104,6 +117,7 @@ const Projects = () => {
               <a
                 href="https://github.com/BlakeLawrence/Squatify-App"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
@@ -132,7 +146,11 @@ const Projects = () => {
 
             {/* Buttons div */}
             <div className="pt-8">
-              <a href="https://movie-mate-app.netlify.app/" target="_blank">
+              <a
+                href="https://movie-mate-app.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Demo
                 </button>
@@ -140,6 +158,7 @@ const Projects = () => {
               <a
                 href="https://github.com/BlakeLawrence/find-a-film"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
@@ -170,7 +189,11 @@ const Projects = () => {
 
             {/* Buttons div */}
             <div className="pt-8">
-              <a href="https://blakes-todo-list.netlify.app/" target="_blank">
+              <a
+                href="https://blakes-todo-list.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Demo
                 </button>
@@ -178,6 +201,7 @@ const Projects = () => {
               <a
                 href="https://github.com/BlakeLawrence/To-Do-List"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
@@ -223,6 +247,7 @@ const Projects = () => {
               <a
                 href="https://github.com/BlakeLawrence/Sourcery--Front-End"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="text-center rounded-lg px-2 py-1 sm:py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code
@@ -248,6 +273,7 @@ const Projects = () => {
               <a
                 href="https://github.com/BlakeLawrence/portfolio"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Code

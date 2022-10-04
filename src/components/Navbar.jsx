@@ -67,7 +67,7 @@ const Navbar = () => {
       </ul>
 
       {/* hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden">
         {!nav ? <FaHamburger size="1.5rem" /> : <FaTimes size="1.5rem" />}
       </div>
       {/* mobile menu */}

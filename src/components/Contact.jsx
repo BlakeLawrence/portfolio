@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import cv from "../assets/cv2022.pdf";
@@ -65,6 +64,7 @@ const Contact = () => {
                 className="flex items-center text-gray-300 font-semibold"
                 href="https://www.linkedin.com/in/blake-lawrence83/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedin size={30} />
               </a>
@@ -75,6 +75,7 @@ const Contact = () => {
                 className="flex items-center text-gray-300 font-semibold"
                 href="https://github.com/BlakeLawrence"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaGithub size={30} />
               </a>
@@ -86,6 +87,7 @@ const Contact = () => {
                 className="flex items-center text-gray-300 font-semibold"
                 href={cv}
                 target="_blank"
+                rel="noreferrer"
               >
                 <BsFillPersonLinesFill size={30} />
               </a>
