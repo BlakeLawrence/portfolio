@@ -37,8 +37,9 @@ const Contact = () => {
           </label>
           <input
             className=" p-2 rounded-md focus:outline-none bg-gray-200"
-            type="text"
+            type="email"
             name="email"
+            required
           />
           <label className="mt-2 text-white" htmlFor="message">
             Message
