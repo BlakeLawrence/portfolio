@@ -31,6 +31,7 @@ const Contact = () => {
             className="p-2 rounded-md focus:outline-none bg-gray-200"
             type="text"
             name="name"
+            required
           />
           <label className="text-white mt-2" htmlFor="email">
             Email
@@ -48,6 +49,7 @@ const Contact = () => {
             className="p-2 rounded-md focus:outline-none bg-gray-200"
             name="message"
             rows="10"
+            required
           ></textarea>
           <button className="text-white rounded-md border-[2px]  px-4 py-2 my-6 mx-auto flex items-center font-semibold hover:scale-105 ">
             Submit
