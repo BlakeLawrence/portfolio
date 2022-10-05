@@ -110,7 +110,7 @@ const Projects = () => {
               proud of the results.
             </p>
 
-            {/* Buttons div */}
+            {/* Buttons div - code and demo */}
             <div>
               <a
                 href="https://nails-by-michelle.netlify.app/"
