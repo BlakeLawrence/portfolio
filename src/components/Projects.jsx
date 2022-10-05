@@ -5,6 +5,7 @@ import squatify from "../assets/squatify.png";
 import sourcery from "../assets/sourcery.png";
 import movie from "../assets/movie-mate.png";
 import portfolio from "../assets/blake-portfolio.png";
+import michelle from "../assets/michelle.png";
 
 const Projects = () => {
   return (
@@ -79,6 +80,54 @@ const Projects = () => {
               >
                 <button className="text-center rounded-lg mt-2 px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
                   Presentation
+                </button>
+              </a>
+            </div>
+          </div>
+          {/* Nails By Michelle  */}
+          <div
+            style={{ backgroundImage: `url(${michelle})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[290px]"
+          >
+            {/* description */}
+          </div>
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between content-div sm:text-md border-[1px] rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[290px]">
+            <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
+              Nails By Michelle
+            </h3>
+
+            <p className="text-gray-300 font-bold">
+              My first commercial website...
+            </p>
+
+            <p>
+              I made this website for a family friends nail salon business in
+              Cheddar, Somerset using Next Js and Tailwind. I learnt alot about
+              SEO and I further increased my skills in Next Js and Tailwind.
+            </p>
+            <p>
+              It took me a little over a week to build this site and I am very
+              proud of the results.
+            </p>
+
+            {/* Buttons div */}
+            <div>
+              <a
+                href="https://nails-by-michelle.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg px-2 mt-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] sm:text-md">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/BlakeLawrence/nails-by-michelle"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg mt-2 px-2 py-1.5 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                  Code
                 </button>
               </a>
             </div>
