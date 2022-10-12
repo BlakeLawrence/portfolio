@@ -101,13 +101,14 @@ const Projects = () => {
             </p>
 
             <p>
-              I made this website for a family friends nail salon business in
-              Cheddar, Somerset using Next Js and Tailwind. I learnt alot about
-              SEO and I further increased my skills in Next Js and Tailwind.
+              I made this website for a family friend's nail salon business in
             </p>
             <p>
-              It took me a little over a week to build this site and I am very
-              proud of the results.
+              I thoroughly enjoyed the process of communicating with the
+              "client" to make sure I met all their needs. I also made sure to
+              do the best SEO job possible and I'm happy to report that the
+              webpage is now ranking on page 1 of google which I am over the
+              moon about.
             </p>
 
             {/* Buttons div - code and demo */}
