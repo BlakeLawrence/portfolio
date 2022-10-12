@@ -172,8 +172,8 @@ const Projects = () => {
               <p className="mt-1">
                 We had various technical hiccups that we ironed out along the
                 way but we also learnt some new technologies such as styled
-                components and furtehr cemented our knowledge of Node, express
-                and SQL in the process
+                components and we further cemented our knowledge of Node,
+                express and SQL in the process
               </p>
             </div>
 
