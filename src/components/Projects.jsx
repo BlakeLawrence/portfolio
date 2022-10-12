@@ -101,14 +101,15 @@ const Projects = () => {
             </p>
 
             <p>
-              I made this website for a family friend's nail salon business in
+              I made this website for a distant family members nail salon
+              business in Cheddar, Somerset.
             </p>
             <p>
-              I thoroughly enjoyed the process of communicating with the
-              "client" to make sure I met all their needs. I also made sure to
-              do the best SEO job possible and I'm happy to report that the
-              webpage is now ranking on page 1 of google which I am over the
-              moon about.
+              I thoroughly enjoyed the process of communicating with the client
+              to make sure I met all their needs and delivered a website they
+              were blown away with. I also made sure to include outstanding SEO
+              and I'm happy to report that the webpage is now ranking on page 1
+              of google which I am over the moon about.
             </p>
 
             {/* Buttons div - code and demo */}
