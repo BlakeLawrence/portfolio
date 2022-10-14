@@ -374,9 +374,9 @@ const Projects = () => {
             <br />
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p>
-                I am currently working on an app that will calculate the price
-                of specific items over each decade to as far back as they were
-                originally created.
+                I am currently working on an app that will be able to calculate
+                the price of specific items over each decade (using a consumer
+                price index) to as far back as they were originally created.
               </p>
               <p className="mt-3">
                 How much things cost "back in the day" is always something that
@@ -386,7 +386,7 @@ const Projects = () => {
                 up fairly quickly on my app.
               </p>
               <p className="mt-3">
-                I have some solid ideas for this app and will be taking my time
+                I have some good ideas for this app and will be taking my time
                 making sure it is planned out properly, built well, tested
                 thoroughly and that accessibility is spot on too.
               </p>
