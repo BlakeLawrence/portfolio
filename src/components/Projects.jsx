@@ -386,8 +386,8 @@ const Projects = () => {
                 up fairly quickly on my app.
               </p>
               <p className="mt-3">
-                I have some good ideas for this app and will be taking my time
-                making sure it is planned out properly, built well, tested
+                I have some good ideas for this app and so I will be taking my
+                time, making sure it is planned out properly, built well, tested
                 thoroughly and that accessibility is spot on too.
               </p>
             </div>
