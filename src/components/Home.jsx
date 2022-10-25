@@ -16,6 +16,7 @@ const Home = () => {
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href="https://www.linkedin.com/in/blake-lawrence83/"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -25,6 +26,7 @@ const Home = () => {
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href="https://github.com/BlakeLawrence"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -44,6 +46,7 @@ const Home = () => {
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href={cv}
               target="_blank"
+              rel="noreferrer"
             >
               CV
               <BsFillPersonLinesFill size={30} />
