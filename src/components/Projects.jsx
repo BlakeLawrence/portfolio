@@ -56,7 +56,7 @@ const Projects = () => {
               <p className="mt-1">
                 Our team manifesto, pair programming experience and agile
                 approach to our app build ensured we all enjoyed ourselves
-                throughout thje process while maintaining a great sense of team
+                throughout the process while maintaining a great sense of team
                 spirit. I couldn't have enjoyed myself any more.
               </p>
             </div>
