@@ -6,6 +6,7 @@ import sourcery from "../assets/sourcery.png";
 import movie from "../assets/movie-mate.png";
 import portfolio from "../assets/blake-portfolio.png";
 import michelle from "../assets/michelle.png";
+import colors from "../assets/colors.png";
 
 const Projects = () => {
   return (
@@ -355,6 +356,50 @@ const Projects = () => {
             <div className="pt-8">
               <a
                 href="https://github.com/BlakeLawrence/portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+
+          {/* Color shade picker*/}
+          <div
+            style={{ backgroundImage: `url(${colors})` }}
+            className="text-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[350px]"
+          >
+            {/* description*/}
+          </div>
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
+            <h3 className="text-2xl font-bold text-gray-200 ">
+              Color Shade Picker
+            </h3>
+            <br />
+            <p>
+              This is a very basic Vanilla JS app that I built in a few hours to
+              refresh my memory on DOM Manipulation.
+            </p>
+            <p>
+              It had been a while since I had played around with Vanilla JS and
+              so I took the opportunity one morning to have a quick practice.
+            </p>
+
+            {/* Buttons div */}
+            <div className="pt-8">
+              <a
+                href="https://random-color-shades.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg px-2 py-1.5  mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/BlakeLawrence/color-shades"
                 target="_blank"
                 rel="noreferrer"
               >
