@@ -409,34 +409,6 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          {/* My next project*/}
-          <div className="text-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[350px]">
-            <h1 className="text-4xl md:text-5xl">COMING SOON</h1>
-            {/* description*/}
-          </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-evenl.y container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
-            <h3 className="text-2xl font-bold text-gray-200 ">Retro Calc</h3>
-            <br />
-            <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
-              <p>
-                I am currently working on an app that will be able to calculate
-                the price of specific items over each decade (using a consumer
-                price index) to as far back as they were originally created.
-              </p>
-              <p className="mt-3">
-                How much things cost "back in the day" is always something that
-                has fascinated me... for example, what would it have cost me to
-                host a dinner party in 1940? What would it have cost me for my
-                first guitar in 1950...well, now people will be able to look it
-                up fairly quickly on my app.
-              </p>
-              <p className="mt-3">
-                I have some good ideas for this app and so I will be taking my
-                time, making sure it is planned out properly, built well, tested
-                thoroughly and that accessibility is spot on too.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
