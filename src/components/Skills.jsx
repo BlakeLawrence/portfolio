@@ -10,11 +10,14 @@ import postgresql from "../assets/Postgresql.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#1c3144]  text-gray-300">
+    <div
+      name="skills"
+      className="w-full h-screen bg-[#1c3144]  text-gray-300 pt-28 md:py-0"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pt-10 pb-8">
-          <p className="text-2xl sm:text-4xl font-bold inline border-b-4 border-[#1982C4]">
+          <p className="text-2xl md:text-4xl font-bold inline border-b-4 border-[#1982C4]">
             Skills
           </p>
           <p className="py-4 text-sm md:text-lg">

@@ -13,11 +13,11 @@ const Projects = () => {
     /* text container - heading and description */
     <div
       name="projects"
-      className="w-full md:h-full text-gray-300 bg-[#1c3144] pt-1"
+      className="w-full md:h-full text-gray-300 bg-[#1c3144] pt-32 md:pt-1"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className=" pb-8">
-          <p className=" text-2xl sm:text-4xl  font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
+          <p className=" text-2xl md:text-4xl  font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
             Projects
           </p>
           <p className="py-6 text-sm md:text-lg">
