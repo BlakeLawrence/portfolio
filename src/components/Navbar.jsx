@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { FaHamburger, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../assets/Blake-Logo.svg";
 
 import { Link } from "react-scroll";
@@ -10,13 +10,13 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <nav className="fixed w-full h-[100px] sm:h-[125px] flex justify-between items-center px-4 bg-[#1c3144] text-[#ccd6f6]">
+    <nav className="fixed w-full h-[80px] md:h-[125px] flex justify-between items-center px-4 bg-[#1c3144] text-[#ccd6f6]">
       <div>
         <img
           id="logo"
           className="hover:animate-pulse"
           src={Logo}
-          alt="logo image"
+          alt="main logo"
         />
       </div>
       {/* menu */}
@@ -68,7 +68,7 @@ const Navbar = () => {
 
       {/* hamburger */}
       <div onClick={handleClick} className="md:hidden">
-        {!nav ? <FaHamburger size="1.5rem" /> : <FaTimes size="1.5rem" />}
+        {!nav ? <FaBars size="1.5rem" /> : <FaTimes size="1.5rem" />}
       </div>
       {/* mobile menu */}
       <ul

@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       {/* social icons */}
-      <div className="hidden sm:flex fixed flex-col top-[35%] left-1">
+      <div className="hidden md:flex fixed flex-col top-[35%] left-1">
         <ul>
           <li className=" w-[150px] h-[40px] sm:w-[150px] sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 border-[1px] rounded-md border-[#1982C4] ">
             <a
@@ -58,17 +58,17 @@ const Home = () => {
       <div name="home" className="w-full h-screen bg-[#1c3144]">
         {/* Overall Container */}
         <div className="items-start max-w-[1000px] mx-10 lg:mx-auto sm:px-8 flex flex-col justify-center h-full pt-8">
-          <p className="text-[#1982C4] text-xl sm:text-3xl font-medium">
+          <p className="text-[#1982C4] text-lg md:text-3xl font-medium">
             {" "}
             Hi, my name is
           </p>
-          <h1 className="ml-0 sm:ml-[-4px] text-3xl sm:text-8xl font-bold text-[#ccd6f6]">
+          <h1 className="ml-0 sm:ml-[-4px] text-2xl md:text-8xl font-bold text-[#ccd6f6]">
             Blake Lawrence
           </h1>
-          <h2 className="text-3xl sm:text-6xl font-bold text-[#8892b0]">
+          <h2 className="text-2xl md:text-6xl font-bold text-[#8892b0]">
             I'm a Full Stack Developer.
           </h2>
-          <p className="text-gray-300 py-4 max-w-[700px] text-lg text-start">
+          <p className="text-gray-300 py-4 max-w-[700px] text-sm md:text-lg text-start">
             I am a highly motivated, ambitious and detail orientated Individual.
             I love solving problems, I enjoy learning new things every day and I
             always push myself to be the best developer I can be.
@@ -76,9 +76,8 @@ const Home = () => {
           <div>
             {/* Smoothe Scroll link to projects */}
             <Link to="projects" spy={true} smooth={true} duration={500}>
-              <button className="text-white group border-[1px] px-4 py-2 sm:px-6 sm:py-3 my-2 flex items-center hover:bg-[#1982C4] hover:border-[#1982C4] rounded-md ">
+              <button className="text-white group border-[1px] px-2 py-2 md:px-6 md:py-3 flex items-center hover:bg-[#1982C4] hover:border-[#1982C4] rounded-md ">
                 View Projects
-                <span className="group-hover:rotate-90 duration-300"></span>
               </button>
             </Link>
           </div>
