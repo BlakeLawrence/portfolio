@@ -110,19 +110,19 @@ const Projects = () => {
             </p>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p className="mt-1">
-                I made this website for a distant family members nail salon
-                business in Cheddar, Somerset.
+                I made this website for a nail salon business in Cheddar,
+                Somerset.
               </p>
               <p className="mt-1">
                 I thoroughly enjoyed the process of communicating with the
-                client to make sure I met all their needs and delivered a
+                client to make sure I met all their needs and delivered a basic
                 website they were blown away with.
               </p>
               <p className="mt-1">
-                I also made sure to include outstanding SEO and I'm happy to
-                report that the webpage is now ranking on page 1 of google which
-                I am very excited about and I have no doubt my website build
-                will add incredible value to their business.
+                I also did alot of research on SEO which I implemented to help
+                the clients page rank on google and I'm happy to report that the
+                webpage is now ranking on page 1 which has made a positive
+                impact on the business's bookings ever since.
               </p>
             </div>
 
