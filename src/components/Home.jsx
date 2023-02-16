@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import cv from "../assets/cv2023.pdf";
+import cv from "../assets/cv_2023.pdf";
 
 const Home = () => {
   return (
