@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import cv from "../assets/cv2022.pdf";
+import cv from "../assets/cv2023.pdf";
 
 const Contact = () => {
   return (
