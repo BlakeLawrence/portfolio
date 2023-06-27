@@ -83,7 +83,7 @@ const Projects = () => {
                 </button>
               </a>
               <a
-                href="https://youtu.be/2OWNUpYSubc"
+                href="https://youtu.be/xZ-yoCRlllM"
                 target="_blank"
                 rel="noreferrer"
               >
