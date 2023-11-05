@@ -46,9 +46,8 @@ const Projects = () => {
             <br />
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p>
-                An app to help tackle the world's pollution crisis - click demo
-                button for my personal walk through. **back end currently down
-                on demo site**
+                An app to help tackle the world's pollution crisis **back end
+                currently down on demo site**
               </p>
               <p className="mt-1">
                 Took on new technologies to learn during the process. Used Next
