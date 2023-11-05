@@ -46,13 +46,13 @@ const Projects = () => {
             <br />
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p>
-                My team and I chose to build an app to help tackle the world's
-                pollution crisis.
+                An app to help tackle the world's pollution crisis - click demo
+                button for my personal walk through. **back end currently down**
               </p>
               <p className="mt-1">
-                We took on new technologies to push ourselves and learn during
-                the process. We used Next Js with Tailwind and leaflet maps as
-                well as various libraries such as formik,Yup and Toastify.
+                Took on new technologies to learn during the process. Used Next
+                Js with Tailwind and leaflet maps as well as various libraries
+                such as formik,Yup and Toastify.
               </p>
               <p className="mt-1">
                 Our team manifesto, pair programming experience and agile
@@ -88,7 +88,7 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 <button className="text-center rounded-lg mt-2 px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
-                  Presentation
+                  video run through
                 </button>
               </a>
             </div>
@@ -148,58 +148,6 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          {/* Squatify  */}
-          <div
-            style={{ backgroundImage: `url(${squatify})` }}
-            className="text-gray-300  shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[350px]"
-          >
-            {/* description */}
-          </div>
-          <div className=" text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-lg p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
-            <h3 className="text-2xl font-bold text-gray-200">Squatify</h3>
-            <br />
-            <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
-              <p className="mt-1">
-                Squatify is a side project I got going with a few fellow
-                students from School of Code in the middle of our bootcamp
-                journey.
-              </p>
-              <p className="mt-1">
-                The reason I initiated this project was to reach out and make a
-                few friends on the course and to keep our agile and team
-                collaboration skills sharpened on weekends and in our spare
-                time.
-              </p>
-              <p className="mt-1">
-                We had various technical hiccups that we ironed out along the
-                way but we also learnt some new technologies such as styled
-                components and we further cemented our knowledge of Node,
-                express and SQL in the process
-              </p>
-            </div>
-
-            {/* Buttons div */}
-            <div className="pt-6">
-              <a
-                href="https://squatify.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="text-center rounded-lg px-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
-                  Demo
-                </button>
-              </a>
-              <a
-                href="https://github.com/BlakeLawrence/Squatify-App"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="text-center rounded-lg px-2 py-1.5 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
 
           {/* Movie Mate */}
           <div
@@ -216,12 +164,11 @@ const Projects = () => {
             </p>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p>
-                I had alot of fun buiding this app and it provided an
-                opportunity to cement some of the core React fundamentals such
-                as fetching and consuming data from an external API, using React
-                props and state, conditional rendering and side effects with
-                useEffect.
+                This app implements the Fetcing and consumption of data through
+                an external API, using React props and state, conditional
+                rendering and side effects with useEffect.
               </p>
+              <p className="mt-2">-Fully Responsive</p>
             </div>
 
             {/* Buttons div */}
@@ -332,55 +279,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          {/* Sourcery */}
-          <div
-            style={{ backgroundImage: `url(${sourcery})` }}
-            className="text-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[350px]"
-          >
-            {/* description*/}
-          </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col container sm:text-md border-[1px] rounded-md p-1 sm:p-2.5 justify-between border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
-            <h3 className="text-2xl font-bold text-gray-200 ">
-              Sourcery Resources
-            </h3>
-            <p className="text-gray-300 font-bold">
-              Week-9 Project ( duration- 1 week )
-            </p>
-            <br />
-            <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
-              <p className="pb-[2px] mt-1">
-                An app to help students find learning resources.
-              </p>
-              <p className="pb-[2px] mt-1">
-                This project was our first taste of collaborating in a random
-                Agile team to engineer a full stack application.
-              </p>
-              <p className=" mt-1">
-                It was a pressure filled week but an enjoyable one that helped
-                us build resillience and provided invaluable experience for our
-                final project month.
-              </p>
-            </div>
 
-            {/* Buttons div */}
-            <div className="pt-1">
-              {/*  <a href="https://blakes-todo-list.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-2 py-1.5 m-2 hover:bg-[#1982c4] text-gray-300 border-[1px] hover:border-[#1982c4] text-md">
-                    Demo
-                  </button>
-                </a> */}
-              <a
-                href="https://github.com/BlakeLawrence/Sourcery--Front-End"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="text-center rounded-lg px-2 py-1 sm:py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-          {/* My Portfolio*/}
           <div
             style={{ backgroundImage: `url(${portfolio})` }}
             className="text-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[350px]"
