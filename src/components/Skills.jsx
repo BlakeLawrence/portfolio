@@ -21,7 +21,7 @@ const Skills = () => {
             Skills
           </p>
           <p className="py-4 text-sm md:text-lg">
-            These are some of the technologies I've worked with...
+            These are a few of the technologies I've worked with...
           </p>
         </div>
         {/* Logo cards - 4 columns down to 2 on mobile view */}

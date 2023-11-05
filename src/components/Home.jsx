@@ -66,12 +66,10 @@ const Home = () => {
             Blake Lawrence
           </h1>
           <h2 className="text-2xl md:text-6xl font-bold text-[#8892b0]">
-            I'm a Full Stack Developer.
+            I'm a Front end Developer.
           </h2>
           <p className="text-gray-300 py-4 max-w-[700px] text-sm md:text-lg text-start">
-            I am a highly motivated, ambitious and detail orientated Individual.
-            I love solving problems, I enjoy learning new things every day and I
-            always push myself to be the best developer I can be.
+            passionate, ambitious, empathetic, detail orientated, collaborative
           </p>
           <div>
             {/* Smoothe Scroll link to projects */}

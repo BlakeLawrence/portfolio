@@ -16,27 +16,28 @@ const About = () => {
         </div>
         <section className="max-w-[1000px] w-full px-4 text-sm md:text-lg">
           <p className="pl-0 w-full">
-            Prior to my journey of becoming a software developer, I enjoyed a
-            career in live corporate events as a Technical Manager and I covered
-            many roles from Audio Engineer to Event Producer. <br />
-            <br /> Although I enjoyed various aspects of my previous career, I
-            couldn't see a very bright or challenging future for myself and so I
-            made the decision to change careers. I started a Udemy course on
-            Front End development during the covid-19 pandemic and over a few
-            months my curiosity quickly evolved into a passion.
+            During Covid 19, with time on my hands and a burning desire to find
+            a sense of purpose and fulfilment in my career, I embarked on a life
+            changing mission to become a Front end developer.
             <br />
             <br />
-            Fast forward a year and I have now just graduated from the School of
-            Code's 16 week intensive full stack developer bootcamp and I am
-            ready to secure my first software development role.
+            Starting off with an in depth Udemy course on Front End development
+            covering HTML, CSS and JavaScript, my curiosity quickly evolved into
+            a passion that I knew I needed to turn into a career.
             <br />
-            <br /> The experience I gained at the School of Code is one I'll
-            never forget and it is one that I am incredibly grateful for. Not
-            only did I learn how to code full stack applications, more
-            importantly, it instilled an incredible amount of resilience into
-            me, I learned how to fit into and work efficiently in any team and
-            it really cemented the fact that I made the right decision to change
-            careers. <br />
+            <br />
+            I went on to join and graduate from the School of Code's 16 week,
+            full time bootcamp, which was a journey packed full of learning,
+            collaboration and industry added value from mind set coaches, guest
+            speakers and personal mentors.
+            <br />
+            <br /> The experience and skills I gained at the School of Code have
+            given me a solid foundation on which to build upon and take to the
+            next level in my career.
+            <br />
+            <br />I am a bit of a perfectionist, I have a keen eye for detail
+            and I have a very organised and meticulous approach to everything I
+            do.
           </p>
         </section>
       </div>
