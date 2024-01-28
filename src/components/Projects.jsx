@@ -1,12 +1,11 @@
 import React from "react";
 import projectCleanup from "../assets/projectcleanup.png";
 import todo from "../assets/todo.png";
-import squatify from "../assets/squatify.png";
-import sourcery from "../assets/sourcery.png";
 import movie from "../assets/movie-mate.png";
 import portfolio from "../assets/blake-portfolio.png";
 import michelle from "../assets/michelle.png";
 import colors from "../assets/colors.png";
+import split from "../assets/split.png";
 
 const Projects = () => {
   return (
@@ -28,6 +27,115 @@ const Projects = () => {
         {/* grid container - 2 columns down to 1 on mobile view*/}
         <div className="w-full items-center grid sm:grid-cols-2 gap-4 pb-20">
           {/* Grid items / projects */}
+          {/* Divvy / Split */}
+          <div
+            style={{ backgroundImage: `url(${split})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[350px]"
+          >
+            {/* description */}
+          </div>
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between content-div sm:text-md border-[1px] rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
+            <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
+              Split
+            </h3>
+
+            <p className="text-gray-300 font-bold">A Bill splitting app</p>
+            <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
+              <p className="mt-1">
+                My friends and I went out for dinner one night and we had a
+                comical experience trying to work out who owed what, so the next
+                day I decided to build this bill splitting app.
+              </p>
+              <p className="mt-1">
+                I researched optical character recognition for bill scanning and
+                managed to integrate an API to do this, but the free monthly api
+                calls were too little and I didnt want to risk having to pay for
+                api calls.
+              </p>
+              <p className="mt-1">
+                I plan to add further manual functionality in future, like bill
+                line items that can be assigned to each person.
+              </p>
+            </div>
+
+            {/* Buttons div - code and demo */}
+            <div>
+              <a
+                href="https://divvy-up.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg px-2 mt-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] sm:text-md">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/BlakeLawrence/divvy-frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg mt-2 px-2 py-1.5 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+
+          {/* Nails By Michelle  */}
+          <div
+            style={{ backgroundImage: `url(${michelle})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[350px]"
+          >
+            {/* description */}
+          </div>
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between content-div sm:text-md border-[1px] rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
+            <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
+              Nails By Michelle
+            </h3>
+
+            <p className="text-gray-300 font-bold">
+              My first commercial website...
+            </p>
+            <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
+              <p className="mt-1">
+                I made this website for a nail salon business in Cheddar,
+                Somerset.
+              </p>
+              <p className="mt-1">
+                I thoroughly enjoyed the process of communicating with the
+                client to make sure I met all their needs and delivered a basic
+                website they were blown away with.
+              </p>
+              <p className="mt-1">
+                I also did alot of research on SEO which I implemented to help
+                the clients page rank on google and I'm happy to report that the
+                webpage is now ranking on page 1 which has made a positive
+                impact on the business's bookings ever since.
+              </p>
+            </div>
+
+            {/* Buttons div - code and demo */}
+            <div>
+              <a
+                href="https://nails-by-michelle.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg px-2 mt-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] sm:text-md">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/BlakeLawrence/nails-by-michelle"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg mt-2 px-2 py-1.5 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
           {/* Project Cleanup  */}
           <div
             style={{ backgroundImage: `url(${projectCleanup})` }}
@@ -93,62 +201,6 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          {/* Nails By Michelle  */}
-          <div
-            style={{ backgroundImage: `url(${michelle})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[350px]"
-          >
-            {/* description */}
-          </div>
-          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between content-div sm:text-md border-[1px] rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
-            <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
-              Nails By Michelle
-            </h3>
-
-            <p className="text-gray-300 font-bold">
-              My first commercial website...
-            </p>
-            <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
-              <p className="mt-1">
-                I made this website for a nail salon business in Cheddar,
-                Somerset.
-              </p>
-              <p className="mt-1">
-                I thoroughly enjoyed the process of communicating with the
-                client to make sure I met all their needs and delivered a basic
-                website they were blown away with.
-              </p>
-              <p className="mt-1">
-                I also did alot of research on SEO which I implemented to help
-                the clients page rank on google and I'm happy to report that the
-                webpage is now ranking on page 1 which has made a positive
-                impact on the business's bookings ever since.
-              </p>
-            </div>
-
-            {/* Buttons div - code and demo */}
-            <div>
-              <a
-                href="https://nails-by-michelle.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="text-center rounded-lg px-2 mt-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] sm:text-md">
-                  Demo
-                </button>
-              </a>
-              <a
-                href="https://github.com/BlakeLawrence/nails-by-michelle"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="text-center rounded-lg mt-2 px-2 py-1.5 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-
           {/* Movie Mate */}
           <div
             style={{ backgroundImage: `url(${movie})` }}
