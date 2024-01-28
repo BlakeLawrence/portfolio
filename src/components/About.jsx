@@ -37,7 +37,7 @@ const About = () => {
             <br />
             <br />I am a bit of a perfectionist, I have a keen eye for detail
             and I have a very organised and meticulous approach to everything I
-            do.
+            do which makes front-end development a perfect fit for me.
           </p>
         </section>
       </div>
