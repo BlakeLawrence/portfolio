@@ -6,6 +6,7 @@ import portfolio from "../assets/blake-portfolio.png";
 import michelle from "../assets/michelle.png";
 import colors from "../assets/colors.png";
 import split from "../assets/split.png";
+import stamp from "../assets/stamp.png";
 
 const Projects = () => {
   return (
@@ -71,6 +72,62 @@ const Projects = () => {
               </a>
               <a
                 href="https://github.com/BlakeLawrence/divvy-frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg mt-2 px-2 py-1.5 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] text-md">
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+          {/* Stamd Duty Calc */}
+          <div
+            style={{ backgroundImage: `url(${stamp})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-cover bg-center h-[350px]"
+          >
+            {/* description */}
+          </div>
+          <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between content-div sm:text-md border-[1px] rounded-md p-2.5  border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
+            <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
+              Stamp Duty Calculator
+            </h3>
+
+            <p className="text-gray-300 font-bold">
+              to calculate stamp duty in England
+            </p>
+            <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
+              <p className="mt-1">
+                A helpful app to work out stamp duty brackets for first time
+                buyers, next home buyers or additional home buyers in England
+                (current to January 2024)
+              </p>
+              <p className="mt-1">
+                Built using React/Vite and Tailwind. I practiced a bit of OOP to
+                create the various tax brackets depending on the buyers status.
+              </p>
+              <p className="mt-1">
+                I built this app becasue my partner and I are in the market to
+                upgrade our flat to a house and fpound ourselves looking at what
+                we would need to pay in stamp duty. I also used it as a chance
+                to practice some of the complexities that can arise within
+                React. (State management, props, conditional rendering etc).
+              </p>
+            </div>
+
+            {/* Buttons div - code and demo */}
+            <div>
+              <a
+                href="https://stamp-duty-calculator.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="text-center rounded-lg px-2 mt-2 py-1.5 ml-0 mr-2 hover:bg-[#1982c4] text-gray-300 hover:text-white border-[1px] hover:border-[#1982c4] sm:text-md">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/BlakeLawrence/property-ladder"
                 target="_blank"
                 rel="noreferrer"
               >
