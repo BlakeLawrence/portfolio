@@ -7,6 +7,15 @@ import michelle from "../assets/michelle.png";
 import colors from "../assets/colors.png";
 import split from "../assets/split.png";
 import stamp from "../assets/stamp.png";
+import react from "../assets/react.png";
+import tailwind from "../assets/tailwind.png";
+import next from "../assets/next.png";
+import jest from "../assets/jest.png";
+import leaflet from "../assets/leaflet.png";
+import javascript from "../assets/javascript.png";
+import css from "../assets/css.png";
+import html from "../assets/html.png";
+import api from "../assets/api.png";
 
 const Projects = () => {
   return (
@@ -19,9 +28,6 @@ const Projects = () => {
         <div className=" pb-8">
           <p className=" text-2xl md:text-4xl  font-bold inline border-b-4 text-gray-300 border-[#1982C4]">
             Projects
-          </p>
-          <p className="py-6 text-sm md:text-lg">
-            Here are some of the projects I've worked on...
           </p>
         </div>
 
@@ -41,18 +47,21 @@ const Projects = () => {
             </h3>
 
             <p className="text-gray-300 font-bold">A Bill splitting app</p>
+            <div className="flex w-[75px]">
+              <img src={react} alt="react icon" className="w-8" />
+              <img
+                src={tailwind}
+                alt="tailwind icon"
+                className="w-8 rounded-xl mx-auto"
+              />
+            </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p className="mt-1">
-                My friends and I went out for dinner one night and we had a
-                comical experience trying to work out who owed what, so the next
-                day I decided to build this bill splitting app.
+                My friends and I went for dinner one night and we had a comical
+                experience trying to work out who owed what on the bill, so I
+                decided to build this bill splitting app.
               </p>
-              <p className="mt-1">
-                I researched optical character recognition for bill scanning and
-                managed to integrate an API to do this, but the free monthly api
-                calls were too little and I didnt want to risk having to pay for
-                api calls.
-              </p>
+
               <p className="mt-1">
                 I plan to add further manual functionality in future, like bill
                 line items that can be assigned to each person.
@@ -96,22 +105,19 @@ const Projects = () => {
             <p className="text-gray-300 font-bold">
               to calculate stamp duty in England
             </p>
+            <div className="flex w-[75px] mt-4 mb-2">
+              <img src={react} alt="react icon" className="w-8" />
+              <img
+                src={tailwind}
+                alt="tailwind icon"
+                className="w-8 rounded-xl mx-auto"
+              />
+            </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p className="mt-1">
                 A helpful app to work out stamp duty brackets for first time
                 buyers, next home buyers or additional home buyers in England
                 (current to January 2024)
-              </p>
-              <p className="mt-1">
-                Built using React/Vite and Tailwind. I practiced a bit of OOP to
-                create the various tax brackets depending on the buyers status.
-              </p>
-              <p className="mt-1">
-                I built this app becasue my partner and I are in the market to
-                upgrade our flat to a house and fpound ourselves looking at what
-                we would need to pay in stamp duty. I also used it as a chance
-                to practice some of the complexities that can arise within
-                React. (State management, props, conditional rendering etc).
               </p>
             </div>
 
@@ -149,24 +155,28 @@ const Projects = () => {
             <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
               Nails By Michelle
             </h3>
-            <p className="text-gray-300 font-bold">
-              My first commercial website...
-            </p>
+            <p className="text-gray-300 font-bold">Commercial Salon website.</p>
+            <div className="flex w-[75px] mt-4">
+              <img src={next} alt="next js icon" className="w-8" />
+              <img
+                src={tailwind}
+                alt="tailwind icon"
+                className="w-8 rounded-xl mx-auto"
+              />
+            </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p className="mt-1">
-                I made this website for a nail salon business in Cheddar,
-                Somerset.
+                Built for a customers nail salon business in Cheddar, Somerset.
               </p>
               <p className="mt-1">
-                I thoroughly enjoyed the process of communicating with the
-                client to make sure I met all their needs and delivered a basic
-                website they were blown away with.
+                I enjoyed the process of communicating with the client to make
+                sure I met all their needs and delivered a website they were
+                blown away with.
               </p>
               <p className="mt-1">
-                I also did alot of research on SEO which I implemented to help
-                the clients page rank on google and I'm happy to report that the
-                webpage is now ranking on page 1 which has made a positive
-                impact on the business's bookings ever since.
+                I did research on SEO which I implemented to help the clients
+                page rank on google. The site is now ranking on page 1 which has
+                made a positive impact on the business's bookings ever since.
               </p>
             </div>
 
@@ -207,22 +217,31 @@ const Projects = () => {
             <p className="text-gray-300 font-bold">
               School of Code Final Project ( duration - 4 weeks )
             </p>
+            <div className="flex w-[75px] mt-3">
+              <img src={next} alt="next js icon" className="w-8 mr-2" />
+              <img
+                src={tailwind}
+                alt="tailwind icon"
+                className="w-8 rounded-xl mx-auto mr-2"
+              />
+              <img
+                src={jest}
+                alt="jest icon"
+                className="w-8 rounded-xl mx-auto mr-2"
+              />
+              <img
+                src={leaflet}
+                alt="jest icon"
+                className="w-8 rounded-xl mx-auto mr-2"
+              />
+            </div>
             <br />
-            <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
-              <p>
-                An app to help tackle the world's pollution crisis **back end
-                currently down on demo site**
-              </p>
+            <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm mb-5">
+              <p className="mb-2">**BACK-END CURRENTLY DOWN**</p>
+              <p>An app to help tackle the world's pollution crisis</p>
               <p className="mt-1">
-                Took on new technologies to learn during the process. Used Next
-                Js with Tailwind and leaflet maps as well as various libraries
-                such as formik,Yup and Toastify.
-              </p>
-              <p className="mt-1">
-                Our team manifesto, pair programming experience and agile
-                approach to our app build ensured we all enjoyed ourselves
-                throughout the process while maintaining a great sense of team
-                spirit. I couldn't have enjoyed myself any more.
+                Built with Next Js, Tailwind and leaflet maps as well as various
+                libraries such as formik,Yup and Toastify.
               </p>
             </div>
 
@@ -266,17 +285,29 @@ const Projects = () => {
           </div>
           <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
             <h3 className="text-2xl font-bold text-gray-200 ">Movie Mate</h3>
-            <br />
+
             <p className="text-gray-300 font-bold">
               An app that finds all movies by search title.
             </p>
+            <div className="flex w-[75px] mt-4">
+              <img src={react} alt="react icon" className="w-8 mr-2" />
+              <img
+                src={tailwind}
+                alt="tailwind icon"
+                className="w-8 rounded-xl mx-auto mr-2"
+              />
+              <img
+                src={api}
+                alt="api icon"
+                className="w-8 rounded-xl mx-auto"
+              />
+            </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p>
                 This app implements the Fetcing and consumption of data through
                 an external API, using React props and state, conditional
                 rendering and side effects with useEffect.
               </p>
-              <p className="mt-2">-Fully Responsive</p>
             </div>
 
             {/* Buttons div */}
@@ -311,7 +342,9 @@ const Projects = () => {
           </div>
           <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
             <h3 className="text-2xl font-bold text-gray-200 ">To Do List</h3>
-            <br />
+            <div className="flex w-[75px] mt-4">
+              <img src={react} alt="react icon" className="w-8" />
+            </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p className="mt-1">
                 This is a basic react app I built while learning React to
@@ -355,7 +388,23 @@ const Projects = () => {
           </div>
           <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
             <h3 className="text-2xl font-bold text-gray-200 ">Color Shades</h3>
-            <br />
+            <div className="flex w-[75px] mt-4">
+              <img
+                src={javascript}
+                alt="javascript icon"
+                className="w-8 mr-2"
+              />
+              <img
+                src={css}
+                alt="tailwind icon"
+                className="w-8 rounded-xl mx-auto mr-2"
+              />
+              <img
+                src={html}
+                alt="tailwind icon"
+                className="w-8 rounded-xl mx-auto"
+              />
+            </div>
             <p>
               This is a very basic Vanilla JS app that I built in a few hours to
               refresh my memory on DOM Manipulation.
@@ -396,9 +445,15 @@ const Projects = () => {
           </div>
           <div className="text-gray-300 text-sm sm:text-md flex flex-col justify-between container content-div sm:text-md border-[1px] rounded-md p-2.5 border-[#213b52] bg-[#213b52] shadow-lg shadow-[#040c16] bg-cover bg-center h-[350px]">
             <h3 className="text-2xl font-bold text-gray-200 ">My Portfolio</h3>
-            <br />
+            <div className="flex w-[75px] mt-4">
+              <img src={react} alt="react icon" className="w-8 mr-2" />
+              <img
+                src={tailwind}
+                alt="tailwind icon"
+                className="w-8 rounded-xl mx-auto"
+              />
+            </div>
             <p>This is my portfolio website that you are currently viewing.</p>
-            <p> It was built using React and Tailwind CSS</p>
 
             {/* Buttons div */}
             <div className="pt-8">
