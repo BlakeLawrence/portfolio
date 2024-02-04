@@ -16,14 +16,20 @@ const About = () => {
         </div>
         <section className="max-w-[1000px] w-full px-4 text-sm md:text-lg">
           <p className="pl-0 w-full">
-            During Covid 19, with time on my hands and a burning desire to find
-            a sense of purpose and fulfilment in my career, I embarked on a life
-            changing mission to become a Front end developer.
+            I am a front end developer, passionate about building user friendly,
+            responsive and accessible web applications using React, TypeScript,
+            NextJs and Tailwind.
+            <br />
+            <br />
+            During Covid 19, with time on my hands and a desire to find a sense
+            of purpose and fulfilment in my career, I embarked on a life
+            changing mission to leave behind the Live events industry and become
+            a Front end developer.
             <br />
             <br />
             Starting off with an in depth Udemy course on Front End development
             covering HTML, CSS and JavaScript, my curiosity quickly evolved into
-            a passion that I knew I needed to turn into a career.
+            more a passion.
             <br />
             <br />
             I went on to join and graduate from the School of Code's 16 week,
@@ -35,9 +41,9 @@ const About = () => {
             given me a solid foundation on which to build upon and take to the
             next level in my career.
             <br />
-            <br />I am a bit of a perfectionist, I have a keen eye for detail
-            and I have a very organised and meticulous approach to everything I
-            do which makes front-end development a perfect fit for me.
+            <br />I am a perfectionist at heart, I have a keen eye for detail
+            and I have an organised and meticulous approach in everything I do
+            which makes front-end development a perfect fit for me.
           </p>
         </section>
       </div>

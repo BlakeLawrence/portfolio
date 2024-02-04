@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../assets/Blake-Logo.svg";
+import javascript from "../assets/javascript.png";
 
 import { Link } from "react-scroll";
 
@@ -19,6 +20,7 @@ const Navbar = () => {
           alt="main logo"
         />
       </div>
+
       {/* menu */}
       <ul className="hidden md:flex text-xl">
         <li className="hover:text-[#1982C4] hover:scale-125">

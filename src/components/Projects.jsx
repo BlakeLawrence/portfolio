@@ -149,7 +149,6 @@ const Projects = () => {
             <h3 className="text-gray-200 text-xl sm:text-2xl font-bold">
               Nails By Michelle
             </h3>
-
             <p className="text-gray-300 font-bold">
               My first commercial website...
             </p>
