@@ -49,8 +49,6 @@ const Projects = () => {
 
             <p className="text-gray-300 font-bold">A Bill splitting app</p>
             <div className="flex w-[75px]">
-              {" "}
-              mr-2
               <img src={react} alt="react icon" className="w-8 mr-2" />
               <img
                 src={tailwind}
