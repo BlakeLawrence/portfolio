@@ -16,6 +16,7 @@ import javascript from "../assets/javascript.png";
 import css from "../assets/css.png";
 import html from "../assets/html.png";
 import api from "../assets/api.png";
+import framer from "../assets/framer.png";
 
 const Projects = () => {
   return (
@@ -48,11 +49,13 @@ const Projects = () => {
 
             <p className="text-gray-300 font-bold">A Bill splitting app</p>
             <div className="flex w-[75px]">
-              <img src={react} alt="react icon" className="w-8" />
+              {" "}
+              mr-2
+              <img src={react} alt="react icon" className="w-8 mr-2" />
               <img
                 src={tailwind}
                 alt="tailwind icon"
-                className="w-8 rounded-xl mx-auto"
+                className="w-8 rounded-xl mx-auto mr-2"
               />
             </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
@@ -106,11 +109,16 @@ const Projects = () => {
               to calculate stamp duty in England
             </p>
             <div className="flex w-[75px] mt-4 mb-2">
-              <img src={react} alt="react icon" className="w-8" />
+              <img src={react} alt="react icon" className="w-8 mr-2" />
               <img
                 src={tailwind}
                 alt="tailwind icon"
-                className="w-8 rounded-xl mx-auto"
+                className="w-8 rounded-xl mx-auto mr-2"
+              />
+              <img
+                src={jest}
+                alt="jest icon"
+                className="w-8 rounded-xl mx-auto mr-2"
               />
             </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
@@ -157,11 +165,16 @@ const Projects = () => {
             </h3>
             <p className="text-gray-300 font-bold">Commercial Salon website.</p>
             <div className="flex w-[75px] mt-4">
-              <img src={next} alt="next js icon" className="w-8" />
+              <img src={next} alt="next js icon" className="w-8 mr-2" />
               <img
                 src={tailwind}
                 alt="tailwind icon"
-                className="w-8 rounded-xl mx-auto"
+                className="w-8 rounded-xl mx-auto mr-2"
+              />
+              <img
+                src={framer}
+                alt="framer-motion icon"
+                className="w-8 rounded-xl mx-auto mr-2"
               />
             </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
@@ -231,7 +244,7 @@ const Projects = () => {
               />
               <img
                 src={leaflet}
-                alt="jest icon"
+                alt="leaflet icon"
                 className="w-8 rounded-xl mx-auto mr-2"
               />
             </div>
@@ -299,7 +312,7 @@ const Projects = () => {
               <img
                 src={api}
                 alt="api icon"
-                className="w-8 rounded-xl mx-auto"
+                className="w-8 rounded-xl mx-auto mr-2"
               />
             </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
@@ -402,7 +415,7 @@ const Projects = () => {
               <img
                 src={html}
                 alt="tailwind icon"
-                className="w-8 rounded-xl mx-auto"
+                className="w-8 rounded-xl mx-auto mr-2"
               />
             </div>
             <p>
@@ -450,7 +463,7 @@ const Projects = () => {
               <img
                 src={tailwind}
                 alt="tailwind icon"
-                className="w-8 rounded-xl mx-auto"
+                className="w-8 rounded-xl mx-auto mr-2"
               />
             </div>
             <p>This is my portfolio website that you are currently viewing.</p>
