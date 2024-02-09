@@ -58,9 +58,9 @@ const Projects = () => {
             </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p className="mt-1">
-                My friends and I went for dinner one night and we had a comical
-                experience trying to work out who owed what on the bill, so I
-                decided to build this bill splitting app.
+                My friends and I went for dinner one night whete we had a
+                comical experience trying to work out who owed what on the bill,
+                so I decided to build this bill splitting app.
               </p>
 
               <p className="mt-1">
@@ -104,7 +104,7 @@ const Projects = () => {
             </h3>
 
             <p className="text-gray-300 font-bold">
-              to calculate stamp duty in England
+              Calculates property stamp duty in England
             </p>
             <div className="flex w-[75px] mt-4 mb-2">
               <img src={react} alt="react icon" className="w-8 mr-2" />
@@ -121,9 +121,9 @@ const Projects = () => {
             </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p className="mt-1">
-                A helpful app to work out stamp duty brackets for first time
-                buyers, next home buyers or additional home buyers in England
-                (current to January 2024)
+                A helpful app to calculate the various stamp duty brackets for
+                first time buyers, next home buyers or additional home buyers in
+                England. (current to January 2024)
               </p>
             </div>
 
@@ -182,7 +182,7 @@ const Projects = () => {
               <p className="mt-1">
                 I enjoyed the process of communicating with the client to make
                 sure I met all their needs and delivered a website they were
-                blown away with.
+                very happy with.
               </p>
               <p className="mt-1">
                 I did research on SEO which I implemented to help the clients
