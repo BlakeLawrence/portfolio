@@ -17,8 +17,8 @@ const About = () => {
         <section className="max-w-[1000px] w-full px-4 text-sm md:text-lg">
           <p className="pl-0 w-full">
             I am a front end developer, passionate about building user friendly,
-            responsive and accessible web applications using React, TypeScript,
-            NextJs and Tailwind.
+            responsive and accessible web applications using React, Next Js,
+            Typescript and Tailwind.
             <br />
             <br />
             During Covid 19, with time on my hands and a desire to find a sense
@@ -29,21 +29,18 @@ const About = () => {
             <br />
             Starting off with an in depth Udemy course on Front End development
             covering HTML, CSS and JavaScript, my curiosity quickly evolved into
-            more a passion.
+            a passion.
             <br />
             <br />
-            I went on to join and graduate from the School of Code's 16 week,
-            full time bootcamp, which was a journey packed full of learning,
-            collaboration and industry added value from mind set coaches, guest
-            speakers and personal mentors.
+            I went on to join and graduate from the School of Code's 16 week
+            full time, full-stack development bootcamp, which was a journey
+            packed full of learning, collaboration and industry added value from
+            mindset coaches, guest speakers and personal mentors.
             <br />
             <br /> The experience and skills I gained at the School of Code have
             given me a solid foundation on which to build upon and take to the
             next level in my career.
             <br />
-            <br />I am a perfectionist at heart, I have a keen eye for detail
-            and I have an organised and meticulous approach in everything I do
-            which makes front-end development a perfect fit for me.
           </p>
         </section>
       </div>
