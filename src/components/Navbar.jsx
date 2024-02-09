@@ -2,8 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../assets/Blake-Logo.svg";
-import javascript from "../assets/javascript.png";
-
 import { Link } from "react-scroll";
 
 const Navbar = () => {
