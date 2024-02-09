@@ -69,7 +69,7 @@ const Home = () => {
             I'm a Front end Developer.
           </h2>
           <p className="text-gray-300 py-4 max-w-[700px] text-sm md:text-lg text-start">
-            React | Typescript | Tailwind | TDD
+            React | Typescript
           </p>
           <div>
             {/* Smoothe Scroll link to projects */}
