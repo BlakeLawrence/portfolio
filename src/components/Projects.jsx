@@ -58,14 +58,14 @@ const Projects = () => {
             </div>
             <div className="text-gray-300 text-left pb-[2px] text-xs md:text-sm">
               <p className="mt-1">
-                My friends and I went for dinner one night whete we had a
+                My friends and I went for dinner one night where we had a
                 comical experience trying to work out who owed what on the bill,
                 so I decided to build this bill splitting app.
               </p>
 
               <p className="mt-1">
-                I plan to add further manual functionality in future, like bill
-                line items that can be assigned to each person.
+                I plan to add further manual functionality in future, such as
+                bill line items that can be assigned to each person.
               </p>
             </div>
 
