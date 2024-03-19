@@ -17,8 +17,7 @@ const About = () => {
         <section className="max-w-[1000px] w-full px-4 text-sm md:text-lg">
           <p className="pl-0 w-full">
             I am a front end developer, passionate about building user friendly,
-            responsive and accessible web applications using React, Next Js,
-            Typescript and Tailwind.
+            responsive and accessible web applications with React.
             <br />
             <br />
             During Covid 19, with time on my hands and a desire to find a sense
